@@ -1,0 +1,167 @@
+// From up in the HTML-tree down to Colors
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: #d7dbdd;
+}
+
+main {
+    margin: 5%;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #d7dbdd;
+    border-radius: 25%;
+    box-shadow: 0.1em 0.1em 0.5em 0.1em #F2F3F4;
+    overflow: hidden;
+    transition: all 400ms cubic-bezier(.46,.03,.52,.96);
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    margin: 0.2rem auto;
+    cursor: pointer;
+}
+
+.hamburgerIsWorking {
+    height: 20rem;
+    transition: all 400ms cubic-bezier(.46,.03,.52,.96);
+}
+
+
+
+// ListColors
+
+
+#listGrey {
+    width: 56vw;
+    color: #d7dbdd;
+    background-color: #F2F3F4;
+    border: 3px #d7dbdd solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+#listRed {
+    color: #ffb3ba;
+    background-color: #E71837;
+    border: 3px #ffb3ba solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+#listBlue {
+    color: #bae1ff;
+    background-color: blue;
+    border: 3px #bae1ff solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+#listGreen {
+    color: #baffc9;
+    background-color: green;
+    border: 3px #baffc9 solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+#listOrange {
+    color: #ffdfba;
+    background-color: orange;
+    border: 3px #ffdfba solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+#listPurple {
+    color: #efbbff;
+    background-color: purple;
+    border: 3px #efbbff solid;
+    border-radius: 25%;
+    line-height: 2rem;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.2);
+        font-size: 1.5rem;
+    }
+}
+
+
+// ColorsChanger
+
+.backgroundIsGrey {
+    color: #F2F3F4;
+    background-color: #d7dbdd;
+}
+
+.backgroundIsRed {
+    color: #ffb3ba;
+    background: red;
+}
+
+.backgroundIsBlue {
+    color: #bae1ff;
+    background: blue;
+}
+
+.backgroundIsGreen {
+    color: #baffc9;
+    background: green;
+}
+
+.backgroundIsOrange {
+    color: #ffdfba;
+    background: orange;
+}
+
+.backgroundIsPurple {
+    color: #efbbff;
+    background: purple;
+}
+
+
+// Media Queries
+
+
+@media screen and (min-width: 600px) {
+    #listGrey {
+        width: 56vw;
+        height: 10vh;
+    }
+}
