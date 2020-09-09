@@ -3,22 +3,23 @@ const ikRockArrowFunctions = () => console.log("Joe, ik rock de arrow functions!
 
 
 // Deel B:
-const fivePlusSeven = () => 5 + 7
+const fivePlusSeven = () => 5 + 7;
 
 
 // Deel C:
-onePlusTwo => 1 + 2
+  () => 1 + 2;
 
 
 // Deel D:
-myFunction = (a, b) => a + b
+const myFunction = (a, b) => a + b;
 
 // Deel E:
-addFive = a => a + 5
+const addFive = a => a + 5;
 
 // Deel F:
-createObject = () => ({ greeting: "hoi" })
-createObject()
+const createObject = () => ({ greeting: "hoi" });
+
+
 
 // Tutorial - flaviocopes.com
 const car = {
