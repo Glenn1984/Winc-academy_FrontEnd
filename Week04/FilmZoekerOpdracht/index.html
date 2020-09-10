@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Film Zoeker</title>
+    <title>Movie Searcher</title>
     <link href="styles/style.css" rel="stylesheet">
     <script defer src="movieDB.js" type="text/javascript"></script>
     <script defer src="script.js" type="text/javascript"></script>
@@ -11,39 +11,42 @@
 <body>
 <header class="header">
     <nav class="nav__list">
-        <div class="nav__list--item">
-            <input type="radio" id="movieChoiceOne" name="moviesFilter" value="movieOne"
-            checked>
-            <label for="movieChoiceOne">film 1</label>
+        <div class="nav__list--button">
+            <label for="site-search">Looking for movie:</label>
+            <input type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Fill in the title">
+            <button>Search</button>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="movieChoiceTwo" name="moviesFilter" value="movieTwo"
+            <input type="radio" id="newestMovies" name="moviesFilter" value="movie"
             checked>
-            <label for="movieChoiceTwo">film 2</label>
+            <label for="newestMovies">newest movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="movieChoiceThree" name="moviesFilter" value="movieThree"
+            <input type="radio" id="avengersMovies" name="moviesFilter" value="movie"
             checked>
-            <label for="movieChoiceThree">film 3</label>
+            <label for="avengersMovies">avengers movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="movieChoiceFour" name="moviesFilter" value="movieFour"
+            <input type="radio" id="xmenMovies" name="moviesFilter" value="movie"
             checked>
-            <label for="movieChoiceFour">film 4</label>
+            <label for="xmenMovies">x-men movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="movieChoiceFive" name="moviesFilter" value="movieFive"
+            <input type="radio" id="princessMovies" name="moviesFilter" value="movie"
             checked>
-            <label for="movieChoiceFive">film 5</label>
+            <label for="princessMovies">princess movies</label>
+        </div>
+        <div class="nav__list--item">
+            <input type="radio" id="batmanMovies" name="moviesFilter" value="movie"
+            checked>
+            <label for="batmanMovies">batman movies</label>
         </div>
     </nav>
 </header>
 <main>
-    <section>
         <ul id="movieContainer">
 
         </ul>
-    </section>
 </main>
 </body>
 </html>

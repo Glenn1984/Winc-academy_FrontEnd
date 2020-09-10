@@ -1,1 +1,4 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.nav__list--item {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */

@@ -2,38 +2,50 @@
 
 const movieContainer = document.getElementById('movieContainer');
 
-// const li_Element = movieContainer.getElementsByTagName('li');
 
-
-// const addMoviesToDom = movies.map((create_Li) => {
-//     const li_Tag = document.createElement('li');
-//     li_Tag.classList.add('movieContainer--item');
-//     li_Tag.textContent = create_Li.Title;
-//     return create_Li;
-// });
-// console.log(addMoviesToDom);
-
-
-// addMoviesToDom.forEach((addToDom) => {
-
-// // .appendChild(li_Tag);
-// //     const img_Tag = li_Tag.createElement('img');
-// //     const img_Tag = document.createElement('img');
-// //     img_Tag.appendChild(li_Element);
-// //     addToDom.Title = li_Element;
-// //     img_Tag.src = addToDom.Poster;
-// //     return addToDom;
-// console.log(addToDom);
-// });
-// console.log(addMoviesToDom);
-
-
-const movieContainer = document.getElementById('movieContainer');
-
-const addMoviesToDom = movies.map((addToDom) => {
+const moviesWithLi = movies.map((movie) => {
     const li_Tag = document.createElement('li');
-    const li_Element = movieContainer.appendChild(li_Tag);
-    li_Element.textContent = addToDom.Title;
+    li_Tag.classList.add('movieContainer--item');
+    const img_Tag = document.createElement('img');
+    li_Tag.appendChild(img_Tag);
+    img_Tag.src = movie.Poster;
+    return li_Tag;
+});
+
+
+moviesWithLi.forEach((moviesToDom) => {
+    movieContainer.appendChild(moviesToDom);
+});
+
+
+// Search button...
+
+// const button = document.createElement("button");
+// button.textContent = "Search";
+const searchBar = document.getElementById('site-search');
+searchBar.addEventListener("keyup", e => {
+    const searchString = e.target.value;
+    const filteredMovies = movies.filter(movie => {
+        return movie.Title.includes(searchString);
+    });
+    displayMovies(console.log(filteredMovies));
+});
+
+const displayMovies = (element) => { return movies.element };
+// functie en event listener werken, log maar naar console.
+// De resultaten moeten nog naar scherm gezonden worden.
+
+
+// optie 1 -radio button:
+// var radios = document.querySelectorAll('input[type=radio][name="contact"]');
+// radios.forEach(radio => radio.addEventListener('change', () => alert(radio.value)));
+
+
+
+
+
+// let headerButton = document.getElementsByTagName("button");
+// headerButton = document.addEventListener("click", function () {
     
-})
-console.log(addMoviesToDom)
+//     alert("Search");
+// });
