@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Zoeker</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <script defer src="movieDB.js" type="text/javascript"></script>
+    <script defer src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="header">
+    <nav class="nav__list">
+        <div class="nav__list--item">
+            <input type="radio" id="movieChoiceOne" name="moviesFilter" value="movieOne"
+            checked>
+            <label for="movieChoiceOne">film 1</label>
+        </div>
+        <div class="nav__list--item">
+            <input type="radio" id="movieChoiceTwo" name="moviesFilter" value="movieTwo"
+            checked>
+            <label for="movieChoiceTwo">film 2</label>
+        </div>
+        <div class="nav__list--item">
+            <input type="radio" id="movieChoiceThree" name="moviesFilter" value="movieThree"
+            checked>
+            <label for="movieChoiceThree">film 3</label>
+        </div>
+        <div class="nav__list--item">
+            <input type="radio" id="movieChoiceFour" name="moviesFilter" value="movieFour"
+            checked>
+            <label for="movieChoiceFour">film 4</label>
+        </div>
+        <div class="nav__list--item">
+            <input type="radio" id="movieChoiceFive" name="moviesFilter" value="movieFive"
+            checked>
+            <label for="movieChoiceFive">film 5</label>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <ul id="movieContainer">
+
+        </ul>
+    </section>
+</main>
+</body>
+</html>
