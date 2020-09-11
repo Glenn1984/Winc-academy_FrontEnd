@@ -18,6 +18,28 @@ moviesWithLi.forEach((moviesToDom) => {
 });
 
 
+
+const handleOnChangeEvent = ((event) => {
+    console.log(event.target);
+
+});
+
+const radioButtons = document.querySelectorAll('input[type=radio][name="moviesFilter"]');
+
+
+radioButtons.forEach(radio => radio.addEventListener('change', handleOnChangeEvent));
+// console.log(radioButtons);
+
+// optie 1 -radio button:
+// var radios = document.querySelectorAll('input[type=radio][name="contact"]');
+// radios.forEach(radio => radio.addEventListener('change', () => alert(radio.value)));
+
+
+
+
+
+
+
 // Search button...
 
 // const button = document.createElement("button");
@@ -31,21 +53,6 @@ searchBar.addEventListener("keyup", e => {
     displayMovies(console.log(filteredMovies));
 });
 
-const displayMovies = (element) => { return movies.element };
-// functie en event listener werken, log maar naar console.
+const displayMovies = (element) => { return element };
+// functie en event listener werken, log naar console.
 // De resultaten moeten nog naar scherm gezonden worden.
-
-
-// optie 1 -radio button:
-// var radios = document.querySelectorAll('input[type=radio][name="contact"]');
-// radios.forEach(radio => radio.addEventListener('change', () => alert(radio.value)));
-
-
-
-
-
-// let headerButton = document.getElementsByTagName("button");
-// headerButton = document.addEventListener("click", function () {
-    
-//     alert("Search");
-// });
