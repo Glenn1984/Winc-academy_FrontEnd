@@ -3,9 +3,9 @@
 const movieContainer = document.getElementById('movieContainer');
 
 
-const moviesWithLi = movies.map((movie) => {
+const moviesWithLi = movies.map ((movie) => {
     const li_Tag = document.createElement('li');
-    li_Tag.classList.add('movieContainer--item');
+    li_Tag.id = 'movieContainer--item';
     const a_Tag = document.createElement('a');
     a_Tag.href = "https://www.imdb.com/title/" + movie.imdbID;
     const img_Tag = document.createElement('img');
@@ -15,61 +15,72 @@ const moviesWithLi = movies.map((movie) => {
 });
 
 
-moviesWithLi.forEach((moviesToDom) => {
+moviesWithLi.forEach ((moviesToDom) => {
     movieContainer.appendChild(moviesToDom);
 });
 
 
 
-
 const handleOnChangeEvent = ((event) => {
-    // console.log(event.target.value); // werkt perfect.
-    switch (event.target) { // event.target.value stuurt geen gegevens door - event.target wel
+    switch (event.target) {
         case latestMovies: {
             filterLatestMovies(latestMovies);
             break;
-        } // add brackets when working with the same variable.
+        } // add brackets when working with the same variable and blocks global scope.
         case avengersMovies: {
             filterMovies(avengersMovies);
             break;
         }
         case xmenMovies: {
-            console.log("hey ik ben { xmenMovies } film")
+            filterMovies(xmenMovies);
             break;
         }
         case princessMovies: {
-            console.log("hey ik ben {princessMovies} film")
+            filterMovies(princessMovies);
             break;
         }
         case batmanMovies: {
-            console.log("hey ik ben { batmanMovies } film")
+            filterMovies(batmanMovies);
             break;
         }
         default:
-            console.log("This doesnt work") // slaat aan bij event.target.value
+            console.log("This doesnt work") // triggers at event.target.value.
             break;
-    }
+    };
 });
 
-const radioButtons = document.querySelectorAll('input[type=radio][name=moviesFilter]');
+const radioButtons = document.querySelectorAll('input[type=radio][name="moviesFilter"][value]');
 
 
-radioButtons.forEach(radio => radio.addEventListener('change', handleOnChangeEvent));
+radioButtons.forEach(radio => radio.addEventListener ('change', handleOnChangeEvent));
 // console.log(radioButtons);
 
 
 
-const filterMovies = ((wordInMovieTitle) => {
-    // console.log(filterMovies) // geeft geen value, wel target.
-    wordInMovieTitle.filter((accumulator, currentvalue) => {
-        console.log(currentvalue);
+const filterMovies = ((inputNode) => {
+    // console.log(inputNode)
+    const inputValue = inputNode.value;
+    // console.log(inputValue);
+    const filteredMovies = movies.filter ((movie) => {
+        return movie.Title.includes(inputValue);
     });
+    console.log(filteredMovies); // Geeft vergelijkings resultaten.
+
+
+    // check of het woord voor komt in de titels uit je db.
+    // je houdt nu een lijst met gefilterde films over.
+    // roep nu moviesWithLi aan maar met je gefilterde lijst inplaats van de hele db.
 });
 
 
 
 const filterLatestMovies = (() => {
-        
+    const filterByYears = movies.filter((movie) => {
+        return movie.Year > "2013" && movie.Year < "2020";
+    });
+    console.log(filterByYears);
+        // plaats de films in de Dom van 2014 of nieuwer.
+        //2014, 2015, 2016, 2017, 2018, 2019.
 });
 
 
@@ -78,20 +89,27 @@ const filterLatestMovies = (() => {
 
 // Search button...
 
-// const button = document.createElement("button");
-// button.textContent = "Search";
+// const searchButton = document.getElementsByTagName("button");
+// searchButton.addEventListener ("submit", (searchByClick) => {
+// });
+
+
+
+// SearchBar
 const searchBar = document.getElementById('site-search');
-searchBar.addEventListener("keyup", e => {
+
+searchBar.addEventListener ("keyup", e => {
     const searchString = e.target.value;
-    const filteredMovies = movies.filter(movie => {
-        return movie.Title.includes(searchString);
+    const filteredMovies = movies.filter (movie => {
+        return movie.Title.includes(searchString) || movie.Title.toLowerCase().includes(searchString) || movie.Title.toUpperCase().includes(searchString);
     });
-    displayMovies(console.log(filteredMovies));
+    displayMovies(filteredMovies);
 });
 
-const displayMovies = (element) => {
-    
-    return element;
+const displayMovies = (filteredMovies) => {
+    console.log(filteredMovies) // de zoekresultaten komen binnen. (filteredMovies).
+    // inpakken in li's (moviesWithli)
+    // terug sturen naar Dom (appendchild).
 };
 // functie en event listener werken, log naar console.
 // De resultaten moeten nog naar scherm gezonden worden.
@@ -99,6 +117,6 @@ const displayMovies = (element) => {
 
 
 
-// optie 1 -radio button:
+// radio button:
 // var radios = document.querySelectorAll('input[type=radio][name="contact"]');
 // radios.forEach(radio => radio.addEventListener('change', () => alert(radio.value)));

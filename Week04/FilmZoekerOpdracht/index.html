@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Movie Searcher</title>
     <link href="styles/style.css" rel="stylesheet">
     <script defer src="movieDB.js" type="text/javascript"></script>
@@ -14,7 +15,7 @@
         <div class="nav__list--button">
             <label for="site-search">Looking for a movie:</label>
             <input type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Fill in the title">
-            <button>Search</button>
+            <button type="submit"><i class="fa fa-search"></i></button>
         </div>
         <div class="nav__list--item">
             <input type="radio" id="latestMovies" name="moviesFilter" value="latestMovies"
@@ -22,22 +23,22 @@
             <label for="latestMovies">latest movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="avengersMovies" name="moviesFilter" value="avengersMovies"
+            <input type="radio" id="avengersMovies" name="moviesFilter" value="Avengers"
             checked>
             <label for="avengersMovies">avengers movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="xmenMovies" name="moviesFilter" value="xmenMovies"
+            <input type="radio" id="xmenMovies" name="moviesFilter" value="X-Men"
             checked>
             <label for="xmenMovies">x-men movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="princessMovies" name="moviesFilter" value="princessMovies"
+            <input type="radio" id="princessMovies" name="moviesFilter" value="Princess"
             checked>
             <label for="princessMovies">princess movies</label>
         </div>
         <div class="nav__list--item">
-            <input type="radio" id="batmanMovies" name="moviesFilter" value="batmanMovies"
+            <input type="radio" id="batmanMovies" name="moviesFilter" value="Batman"
             checked>
             <label for="batmanMovies">batman movies</label>
         </div>
