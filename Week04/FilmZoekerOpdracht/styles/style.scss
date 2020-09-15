@@ -19,7 +19,11 @@ body {
 }
 
 .header {
-    height: 23em;
+    height: 20em;
+    &__searchbar {
+        display: flex;
+        height: 3em;
+    }
 }
 
 #site-search {
@@ -31,85 +35,87 @@ body {
     width: 80%;
 }
 
-// .nav__list {
-//     text-align: center;
-//     &--item {
-//         position: relative;
-//         height: 65px;
-//         width: 210px;
-//         margin: 0 40px;
-//         border-radius: 5px;
-//         text-transform: uppercase;
-//         border: 1px solid transparent;
-//         outline: none;
-//         cursor: pointer;
-//         background: #0d0d0d;
-//         overflow: hidden;
-//         transition: 0.6s;
-//         &:nth-child(2) {
-//             color: #1DA1F2;
-//             border-color: #26a4f2;
-//         }
-//         &:nth-child(3) {
-//             color: 	#a50000;
-//             border-color: #3268bd;
-//         }
-//         &:nth-child(4) {
-//             color:  	#ffb400;
-//             border-color: #a30303;
-//         }
-//         &:nth-child(5) {
-//             color: #ffc2cd;
-//             border-color: #ff084a;
-//         }
-//         &:last-child {
-//             color: #fdff00;
-//             border-color: #282e3c;
-//         }
-//         &::before, &::after {
-//             content: '';
-//             position: absolute;
-//             left: 0;
-//             top: 0;
-//             height: 100%;
-//             filter: blur(30px);
-//             opacity: 0.4s;
-//             transition: 0.6s;
-//         }
-//         &::before {
-//             width: 60px;
-//             background: rgba(255, 255, 255, 0.6);
-//             transform: translateX(-130px) skewX(-45deg);
-//         }
-//         &::after {
-//             width: 30px;
-//             background: rgba(255,255,255,0.6);
-//             transform: translateX(-130px) skewX(-45deg);
-//         }
-//         &:hover::before, &:hover::after {
-//             opacity: 0.6;
-//             transform: translateX(320px) skewX(-45deg);
-//         }
-//         &:hover {
-//             color: #f2f2f2;
-//         }
-//         &:hover:nth-child(2) {
-//             background: #206592;
-//         }
-//         &:hover:nth-child(3) {
-//             background: #00991f;
-//         }
-//         &:hover:nth-child(4) {
-//             background: #1d2158;
-//         }
-//         &:hover:nth-child(5) {
-//             background: #ff93ac;
-//         }
-//         &:hover:last-child {
-//             background: #988829;
-//         }
-//     }
-// }
+.nav__list {
+    margin: 3em;
+    display: flex;
+    text-align: center;
+    &--item {
+        position: relative;
+        height: 65px;
+        width: 210px;
+        margin: 0 10px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        outline: none;
+        cursor: pointer;
+        background: #0d0d0d;
+        overflow: hidden;
+        transition: 0.6s;
+        &:nth-child(1) {
+            color: #1DA1F2;
+            border-color: #26a4f2;
+        }
+        &:nth-child(2) {
+            color: #a50000;
+            border-color: #3268bd;
+        }
+        &:nth-child(3) {
+            color: #ffb400;
+            border-color: #a30303;
+        }
+        &:nth-child(4) {
+            color: #ffc2cd;
+            border-color: #ff084a;
+        }
+        &:last-child {
+            color: #fdff00;
+            border-color: #282e3c;
+        }
+        &::before, &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            filter: blur(30px);
+            opacity: 0.4s;
+            transition: 0.6s;
+        }
+        &::before {
+            width: 60px;
+            background: rgba(255, 255, 255, 0.6);
+            transform: translateX(-130px) skewX(-45deg);
+        }
+        &::after {
+            width: 30px;
+            background: rgba(255,255,255,0.6);
+            transform: translateX(-130px) skewX(-45deg);
+        }
+        &:hover::before, &:hover::after {
+            opacity: 0.6;
+            transform: translateX(320px) skewX(-45deg);
+        }
+        &:hover {
+            color: #f2f2f2;
+        }
+        &:hover:nth-child(1) {
+            background: #206592;
+        }
+        &:hover:nth-child(2) {
+            background: #00991f;
+        }
+        &:hover:nth-child(3) {
+            background: #1d2158;
+        }
+        &:hover:nth-child(4) {
+            background: #ff93ac;
+        }
+        &:hover:last-child {
+            background: #988829;
+        }
+    }
+}
 
 
 #movieContainer {
@@ -117,12 +123,10 @@ body {
     flex-flow: column wrap;
     list-style-type: none;
     align-content: space-between;
-    /* Your container needs a fixed height, and it 
-    * needs to be taller than your tallest column. */
-    height: 8000px;
+    height: 350em;
     &--item {
         width: 32%;
-        margin-bottom: 2%; /* Optional */
+        margin-bottom: 2%;
     }
     &--item:nth-child(3n+1) {
         order: 1;
@@ -140,7 +144,3 @@ body {
         order: 2;
     }
 }
-
-
-
-

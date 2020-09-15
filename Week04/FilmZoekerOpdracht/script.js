@@ -5,8 +5,8 @@ const movieContainer = document.getElementById('movieContainer');
 
 // Adding database in function to wrap it with tags and send back to Dom.
 
-const addMoviesToDom = () => {
-    const moviesWithLi = movies.map ((movie) => {
+const addMoviesToDom = (addMovies) => {
+    const moviesWithLi = addMovies.map((movie) => {
         const li_Tag = document.createElement('li');
         li_Tag.id = 'movieContainer--item';
         const a_Tag = document.createElement('a');
@@ -17,16 +17,15 @@ const addMoviesToDom = () => {
         return movie = li_Tag;
     });
 
-    moviesWithLi.forEach ((moviesToDom) => {
+    moviesWithLi.forEach((moviesToDom) => {
         movieContainer.appendChild(moviesToDom);
     });
 };
-addMoviesToDom();
+addMoviesToDom(movies);
 
 // Grabbing all radio buttons and using switch to send them to the filter functions.
 
 const handleOnChangeEvent = (event) => {
-    // movieContainer.innerHTML = '';
     switch (event.target) {
         case latestMovies: {
             filterLatestMovies(latestMovies);
@@ -54,17 +53,17 @@ const handleOnChangeEvent = (event) => {
     };
 };
 
-const radioButtons = document.querySelectorAll ('input[type=radio][name="moviesFilter"][value]');
-radioButtons.forEach (radio => radio.addEventListener ('change', handleOnChangeEvent));
+const radioButtons = document.querySelectorAll('input[type=radio][name="moviesFilter"][value]');
+radioButtons.forEach(radio => radio.addEventListener('change', handleOnChangeEvent));
 
 
 // Filter function to filter the titles.
 
 const filterMovies = (wordInMovieTitle) => {
-    // movieContainer.innerHTML = '';
+    movieContainer.innerHTML = '';
     const searchValue = wordInMovieTitle.value;
 
-    const filteredMovies = movies.filter ((movie) => {
+    const filteredMovies = movies.filter((movie) => {
         return movie.Title.includes(searchValue);
     });
 
@@ -75,9 +74,9 @@ const filterMovies = (wordInMovieTitle) => {
 // Filter function to filter by years.
 
 const filterLatestMovies = () => {
-    // movieContainer.innerHTML = '';
+    movieContainer.innerHTML = '';
 
-    const filterByYears = movies.filter ((movie) => {
+    const filterByYears = movies.filter((movie) => {
         return movie.Year > "2013" && movie.Year < "2020";
     });
 
@@ -89,18 +88,17 @@ const filterLatestMovies = () => {
 
 const searchBar = document.getElementById('site-search');
 
-searchBar.addEventListener("keyup", element => {
-    // movieContainer.innerHTML = '';
+searchBar.addEventListener("keypress", element => {
+    movieContainer.innerHTML = '';
     const searchString = element.target.value;
 
-    const filteredSearchMovies = movies.filter (movie => {
-        return movie.Title.toLowerCase().includes(searchString) || movie.Title.toUpperCase().includes(searchString);
+    const filteredSearchMovies = movies.filter(movie => {
+        return movie.Title.includes(searchString) || movie.Title.toLowerCase().includes(searchString) || movie.Title.toUpperCase().includes(searchString);
     });
 
     displayMovies(filteredSearchMovies);
 });
 
 const displayMovies = (filteredSearchMovies) => {
-    // movieContainer.innerHTML = '';
     return addMoviesToDom(filteredSearchMovies);
 };

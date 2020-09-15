@@ -57,85 +57,45 @@ const movies = [
 },
 
 {
-        
-        Title: "X-Men: The Animated Series",
-        
-        Year: "1992–1997",
-        
-        imdbID: "tt0103584",
-        
-        Type: "series",
-        
-        Poster:
-        
-        "https://m.media-amazon.com/images/M/MV5BNTVjNmEwNTMtNmQ2ZC00MGJkLWI3MDgtNzMyNTc4YjVkNTQ1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-        
-        },
-        
-        {
-        
-        Title: "X-Men: Evolution",
-        
-        Year: "2000–2003",
-        
-        imdbID: "tt0247827",
-        
-        Type: "series",
-        
-        Poster:
-        
-        "https://m.media-amazon.com/images/M/MV5BOWMyMThhN2UtMGMzYi00ODVmLWFlODItYmZlMzMxYzE3MmZkXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_SX300.jpg"
-        
-        },
-        
-        {
-        
-        Title: "Wolverine and the X-Men",
-        
-        Year: "2008–2009",
-        
-        imdbID: "tt0772145",
-        
-        Type: "series",
-        
-        Poster:
-        
-        "https://m.media-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_SX300.jpg"
-        
-        },
-        
-        {
-        
-        Title: "The Avengers",
-        
-        Year: "2012",
-        
-        imdbID: "tt0848228",
-        
-        Type: "movie",
-        
-        Poster:
-        
-        "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
-        
-        },
-        
-        {
-        
-        Title: "Avengers: Infinity War",
-        
-        Year: "2018",
-        
-        imdbID: "tt4154756",
-        
-        Type: "movie",
-        
-        Poster:
-        
-        "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
-        
-        },
-        
+    Title: "X-Men: The Animated Series",
+    Year: "1992–1997",
+    imdbID: "tt0103584",
+    Type: "series",
+    Poster: "https://m.media-amazon.com/images/M/MV5BNTVjNmEwNTMtNmQ2ZC00MGJkLWI3MDgtNzMyNTc4YjVkNTQ1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+},
+
+{
+    Title: "X-Men: Evolution",
+    Year: "2000–2003",
+    imdbID: "tt0247827",        
+    Type: "series",
+    Poster: "https://m.media-amazon.com/images/M/MV5BOWMyMThhN2UtMGMzYi00ODVmLWFlODItYmZlMzMxYzE3MmZkXkEyXkFqcGdeQXVyOTgwMzk1MTA@._V1_SX300.jpg"
+},
+
+{
+    Title: "Wolverine and the X-Men",
+    Year: "2008–2009",
+    imdbID: "tt0772145",
+    Type: "series",
+    Poster: "https://m.media-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_SX300.jpg"
+},
+
+{
+    Title: "The Avengers",
+    Year: "2012",
+    imdbID: "tt0848228",
+    Type: "movie",
+    Poster: "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+},
+
+{
+    Title: "Avengers: Infinity War",
+    Year: "2018",
+    imdbID: "tt4154756",
+    Type: "movie",
+    Poster: "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg"
+},
+
         {
         
         Title: "Avengers: Age of Ultron",
@@ -505,5 +465,3 @@ const movies = [
         }
         
         ];
-
-
