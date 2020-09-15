@@ -1,57 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-.nav__list {
-    // &--button {
-    //     width: 20%;
-    //     background: #2196F3;
-    //     color: white;
-    //     cursor: pointer;
-    // }
-    // &--button:hover {
-    //     background: #0b7dda;
-    // }
-    &--item {
-        text-transform: capitalize;
-    }
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+    text-decoration: none;
 }
 
-// #site-search {
-//     width: 10rem;
-//     transition: width 0.4s ease-in-out;
-// }
+body {
+    background-color: #0d0d0d;
+    color: #FFFFFF;
+    height: 100%;
+}
 
-// #site-search:focus {
-//     width: 80%;
-// }
+.header {
+    height: 23em;
+}
 
+#site-search {
+    width: 10rem;
+    transition: width 0.4s ease-in-out;
+}
 
-// #movieContainer {
-//     display: flex;
-//     flex-flow: column wrap;
-    
-//     align-content: space-between;
-//     /* Your container needs a fixed height, and it 
-//     * needs to be taller than your tallest column. */
-//     height: 8000px;
+#site-search:focus {
+    width: 80%;
+}
+
+// .nav__list {
+//     text-align: center;
 //     &--item {
-//         width: 32%;
-//         margin-bottom: 2%; /* Optional */
-//     }
-//     &--item:nth-child(3n+1) {
-//         order: 1;
-//     }
-//     &--item:nth-child(3n+2) {
-//         order: 2;
-//     }
-//     &--item:nth-child(3n) {
-//         order: 3;
-//     }
-//     &::before, &::after {
-//         content: "";
-//         flex-basis: 100%;
-//         width: 0;
-//         order: 2;
+//         position: relative;
+//         height: 65px;
+//         width: 210px;
+//         margin: 0 40px;
+//         border-radius: 5px;
+//         text-transform: uppercase;
+//         border: 1px solid transparent;
+//         outline: none;
+//         cursor: pointer;
+//         background: #0d0d0d;
+//         overflow: hidden;
+//         transition: 0.6s;
+//         &:nth-child(2) {
+//             color: #1DA1F2;
+//             border-color: #26a4f2;
+//         }
+//         &:nth-child(3) {
+//             color: 	#a50000;
+//             border-color: #3268bd;
+//         }
+//         &:nth-child(4) {
+//             color:  	#ffb400;
+//             border-color: #a30303;
+//         }
+//         &:nth-child(5) {
+//             color: #ffc2cd;
+//             border-color: #ff084a;
+//         }
+//         &:last-child {
+//             color: #fdff00;
+//             border-color: #282e3c;
+//         }
+//         &::before, &::after {
+//             content: '';
+//             position: absolute;
+//             left: 0;
+//             top: 0;
+//             height: 100%;
+//             filter: blur(30px);
+//             opacity: 0.4s;
+//             transition: 0.6s;
+//         }
+//         &::before {
+//             width: 60px;
+//             background: rgba(255, 255, 255, 0.6);
+//             transform: translateX(-130px) skewX(-45deg);
+//         }
+//         &::after {
+//             width: 30px;
+//             background: rgba(255,255,255,0.6);
+//             transform: translateX(-130px) skewX(-45deg);
+//         }
+//         &:hover::before, &:hover::after {
+//             opacity: 0.6;
+//             transform: translateX(320px) skewX(-45deg);
+//         }
+//         &:hover {
+//             color: #f2f2f2;
+//         }
+//         &:hover:nth-child(2) {
+//             background: #206592;
+//         }
+//         &:hover:nth-child(3) {
+//             background: #00991f;
+//         }
+//         &:hover:nth-child(4) {
+//             background: #1d2158;
+//         }
+//         &:hover:nth-child(5) {
+//             background: #ff93ac;
+//         }
+//         &:hover:last-child {
+//             background: #988829;
+//         }
 //     }
 // }
+
+
+#movieContainer {
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    align-content: space-between;
+    /* Your container needs a fixed height, and it 
+    * needs to be taller than your tallest column. */
+    height: 8000px;
+    &--item {
+        width: 32%;
+        margin-bottom: 2%; /* Optional */
+    }
+    &--item:nth-child(3n+1) {
+        order: 1;
+    }
+    &--item:nth-child(3n+2) {
+        order: 2;
+    }
+    &--item:nth-child(3n) {
+        order: 3;
+    }
+    &::before, &::after {
+        content: "";
+        flex-basis: 100%;
+        width: 0;
+        order: 2;
+    }
+}
 
 
 
