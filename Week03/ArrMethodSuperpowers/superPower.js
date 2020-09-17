@@ -107,7 +107,7 @@ const superheroes = [
     ];
     
     // alleen gebruik maken van .map, .filter of .reduce !
-   
+    
     // Deel 1:
 
 // const heroesByName = superheroes.map(item => { 
