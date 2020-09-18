@@ -16,11 +16,24 @@ function processRequest (response) {
     });
 };
 
-makeRequest('Google').then(response => { // Try Facebook instead of Google
-    console.log('Response received');
-    return processRequest(response);
-}).then(processedResponse => {
-    console.log(processedResponse);
-}).catch(error => {
-    console.log(error);
-});
+// makeRequest('Google').then(response => { // Try Facebook instead of Google
+//     console.log('Response received');
+//     return processRequest(response);
+// }).then(processedResponse => {
+//     console.log(processedResponse);
+// }).catch(error => {
+//     console.log(error);
+// });
+
+async function doWork() {
+    try {
+        const response = await makeRequest('Google');
+        console.log('Response received');
+        const processedResponse = await processRequest(response);
+        console.log(processedResponse);
+    } catch (error) {
+        console.log(error);
+    };
+};
+
+doWork();
