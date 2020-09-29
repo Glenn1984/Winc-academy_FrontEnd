@@ -22,19 +22,20 @@ const allButtons = document.querySelectorAll("button");
 
 //////////////////////////////////////////////////////////
 
-function helperFunction(event) {
-    const id = event.target.id;           //* informatie van buttons.
-    const db = randomPersonData;          //* informatie uit database.
-    const filter = getFilter(id);         //* filteren op specificatie.
-    const result = db.filter(filter);     //? resultaat van filter uit database.
-    console.log(`++${result}++`);         //! waarde = [object object].
+const helperFunction = (event) => {
+    const id = event.target.id;              //* informatie van buttons.
+    const db = randomPersonData;             //* informatie uit database.
+    const filter = getFilter(id);            //* filteren op specificatie.
+    console.log(filter);                     //? logt sortByCountryList-functie.
+    const result = db.filter(filter);        //? resultaat van filter uit database.
+    // console.log(JSON.stringify(result));  //? logt hele database, inplaats van gefilterde resultaat.
     addFilterToDom(result);
 };
 
 
-function getFilter(id) {                    //* sortingMachine
+const getFilter = (id) => {                    //* sortingMachine
     filterObject = {
-        countryList: sortByCountryList,     //* waarde van button naar functie
+        countryList: console.log(sortByCountryList()),     //* waarde van button naar functie
         capricornWomen: sortByCapricornWomen,
         oldCreditCards: sortByOldCreditCards,
         mostPeople: sortByMostPeople,
@@ -44,27 +45,23 @@ function getFilter(id) {                    //* sortingMachine
     return filterObject[id];
 };
 
-function addFilterToDom(id, result) { 
-    console.log(`**${result}**`);             //! logt waarde (undefined), geen object.
-    // console.log(`@@${id}@@`);              //* log werkt...
+const addFilterToDom = (id, result) => {
+    // console.log(JSON.stringify(result));   //! logt waarde (undefined), geen object.
+    // console.log(JSON.stringify(id));          //! logt volledige db.
     // ?  create dom structure matching the result
     // ?  EG: countries only country names, persons full person records 
     // ?  loop over result, add dom structure with value of result
     // const ul_Tag = document.createElement('ul');
     // const li_Tag = document.createElement('li');
     // main.appendChild(ul_Tag).appendChild(li_Tag).textContent = result;
-}
+};
 
 allButtons.forEach((buttons) => {
     buttons.addEventListener("click", helperFunction); /* //* start at line 25 */
 });
 
 const sortByCountryList = (filterByCountry) => {
-    // console.log(filterByCountry)                   //* logt hele database
-    console.log(filterByCountry.region);              //* logt hele database met regio
-    const filteredCountries = filterByCountry.region;
-    console.log(filteredCountries)                    //* logt alle landen.
-    return filteredCountries;
+    filterByCountry.region;
 };
 
 const sortByCapricornWomen = (filterByCapricornWomen) => {
@@ -85,7 +82,7 @@ const sortByAverageAge = (filterByAverageAge) => {
 
 const sortByMatchMaking = (filterByMatchMaking) => {
     console.log(filterByMatchMaking);
-}
+};
 
 
 ////////////////////////////////////////////////////////////////////
@@ -155,7 +152,7 @@ const sortByMatchMaking = (filterByMatchMaking) => {
 // });
 
 // const sortCountryList = (sortByCountry) => {
-//     // main.innerHTML = "";
+//     main.innerHTML = "";
 //     const searchValue = randomPersonData.region;
 //     console.log(searchValue)
     // const sortCountry = sortByCountry.sort(searchValue);
@@ -166,7 +163,6 @@ const sortByMatchMaking = (filterByMatchMaking) => {
 // const sortCapricornWomen = (sortByCapricornWomen) => {
 //     main.innerHTML = '';
 //     const searchValue = sortByCapricornWomen;
-//     const 
 
 // const ul_Tag = document.createElement('ul');
 
@@ -174,12 +170,13 @@ const sortByMatchMaking = (filterByMatchMaking) => {
 //     const persons = addClick.map(personData => {
         // const personNames = [personData.name, personData.surname, personData.birthday.dmy];
         // console.log(personNames);
-        // const source = personData.photo;
-        // const target = "https://picsum.photos/";
-        // const photos = Object.assign(target, source);
-        // console.log(photos);
+        // const source = addClick.photo;
+        // const photos = Object.keys = "https://picsum.photos/";
+        // const result = source + photos;
         // img_Tag.src = "https://picsum.photos/200";
     // });
+    // console.log(persons);
+
     // const sortPersonName = addClick.sort((a, b) => a.name.localeCompare(b.name, "en"));
     // console.log(sortPersonName);
 
