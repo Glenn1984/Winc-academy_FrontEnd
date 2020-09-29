@@ -27,7 +27,7 @@ function helperFunction(event) {
     const db = randomPersonData;          //* informatie uit database.
     const filter = getFilter(id);         //* filteren op specificatie.
     const result = db.filter(filter);     //? resultaat van filter uit database.
-    console.log(`++${result}++`);         //! geen waarde uit object.
+    console.log(`++${result}++`);         //! waarde = [object object].
     addFilterToDom(result);
 };
 
@@ -45,7 +45,7 @@ function getFilter(id) {                    //* sortingMachine
 };
 
 function addFilterToDom(id, result) { 
-    console.log(`**${result}**`);          //! logt waarde (undefined), geen object.
+    console.log(`**${result}**`);             //! logt waarde (undefined), geen object.
     // console.log(`@@${id}@@`);              //* log werkt...
     // ?  create dom structure matching the result
     // ?  EG: countries only country names, persons full person records 
@@ -56,15 +56,15 @@ function addFilterToDom(id, result) {
 }
 
 allButtons.forEach((buttons) => {
-    buttons.addEventListener("click", helperFunction); /* //* start at line 34 */
+    buttons.addEventListener("click", helperFunction); /* //* start at line 25 */
 });
 
 const sortByCountryList = (filterByCountry) => {
-    // console.log(filterByCountry) //* logt hele database
-    console.log(filterByCountry.region); //* logt hele database met regio
+    // console.log(filterByCountry)                   //* logt hele database
+    console.log(filterByCountry.region);              //* logt hele database met regio
     const filteredCountries = filterByCountry.region;
-    console.log(filteredCountries)
-    
+    console.log(filteredCountries)                    //* logt alle landen.
+    return filteredCountries;
 };
 
 const sortByCapricornWomen = (filterByCapricornWomen) => {
