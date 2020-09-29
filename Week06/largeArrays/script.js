@@ -1,74 +1,123 @@
 const main = document.querySelector("main");
-const buttons = document.querySelectorAll("button");
+const allButtons = document.querySelectorAll("button");
+
+// console.log(allButtons); // Log NodeList(6);
 
 
-// console.log(buttons); // Log NodeList(6);
+// const ul_Tag = document.createElement('ul');
 
+// const databaseWithPersonData = (addClick) => {
+//     const personDataWithLi = addClick.map((personData) => {
+//         const li_Tag = document.createElement('li');
+//         li_Tag.textContent = personData.region;
+//         const result = ul_Tag.appendChild(li_Tag);
+//         return result;
+//     });
+//         personDataWithLi.forEach((addToDom) => {
+//         main.appendChild(ul_Tag).appendChild(addToDom);
+//     });
+// };
 
-const ul_Tag = document.createElement('ul');
+// databaseWithPersonData(randomPersonData);
 
-const databaseWithPersonData = (addClick) => {
-    // console.log(addClick); // Data komt goed binnen.
-    // const personDataWithLi = addClick.map((personData) => {
-    //     // console.log(personData); Data komt goed binnen.
-    //     const li_Tag = document.createElement('li');
-    //     li_Tag.textContent = `Land: ${personData.region}`;
-    //     main.appendChild(ul_Tag).appendChild(li_Tag);
-    //     return personData = li_Tag;
-    // });
-    // console.log(personDataWithLi) // Log 200 personen
-    addClick.forEach((addToDom) => {
-        // console.log(addToDom) // log 200 personen met li element.
-        // ul_Tag.appendChild(addToDom);
-        // const ul_Tag = document.createElement('ul');
-        const li_Tag = document.createElement('li');
-        main.appendChild(ul_Tag).appendChild(li_Tag).textContent = addToDom.region;
+//////////////////////////////////////////////////////////
 
-    });
+function helperFunction(event) {
+    const id = event.target.id;           //* informatie van buttons.
+    const db = randomPersonData;          //* informatie uit database.
+    const filter = getFilter(id);         //* filteren op specificatie.
+    const result = db.filter(filter);     //? resultaat van filter uit database.
+    console.log(`++${result}++`);         //! geen waarde uit object.
+    addFilterToDom(result);
 };
 
-databaseWithPersonData(randomPersonData);
 
-
-
-const sortingMachine = (type) => {
-    console.log(type.target.id);
-    const sortByCountryList = countryList => `Landenlijst: ${countryList}`;
-    const sortByCapricornWomen = capricornWomen => `${capricornWomen}`;
-    const sortByOldCreditCards = oldCreditCards => `${oldCreditCards}`;
-    const sortByMostPeople = mostPeople => `${mostPeople}`;
-    const sortByAverageAge = averageAge => `${averageAge}`;
-    const sortByMatchMaking = matchMaking => `${matchMaking}`;
-    // incoming value = right --> button <-- has to go to Dom
-    console.log(`---${sortByCapricornWomen}---`);
-
-
-    const objectOfKinds = {
-        countryList: sortByCountryList,
+function getFilter(id) {                    //* sortingMachine
+    filterObject = {
+        countryList: sortByCountryList,     //* waarde van button naar functie
         capricornWomen: sortByCapricornWomen,
         oldCreditCards: sortByOldCreditCards,
         mostPeople: sortByMostPeople,
         averageAge: sortByAverageAge,
         matchMaking: sortByMatchMaking,
-        default: value => console.log(`Dit werkt niet: ${value}`)
-    };
-    console.log(`****${objectOfKinds.capricornWomen}****`);
-    console.log(objectOfKinds[type.target.id]);
-    return objectOfKinds[type.target.id] || objectOfKinds.default;
+    }
+    return filterObject[id];
 };
 
-buttons.forEach((allButtons) => {
-    allButtons.addEventListener("click", sortingMachine);
+function addFilterToDom(id, result) { 
+    console.log(`**${result}**`);          //! logt waarde (undefined), geen object.
+    // console.log(`@@${id}@@`);              //* log werkt...
+    // ?  create dom structure matching the result
+    // ?  EG: countries only country names, persons full person records 
+    // ?  loop over result, add dom structure with value of result
+    // const ul_Tag = document.createElement('ul');
+    // const li_Tag = document.createElement('li');
+    // main.appendChild(ul_Tag).appendChild(li_Tag).textContent = result;
+}
+
+allButtons.forEach((buttons) => {
+    buttons.addEventListener("click", helperFunction); /* //* start at line 34 */
 });
-// (event) => {
 
-// console.log(event.target.id) // Log alle 6 de buttons
+const sortByCountryList = (filterByCountry) => {
+    // console.log(filterByCountry) //* logt hele database
+    console.log(filterByCountry.region); //* logt hele database met regio
+    const filteredCountries = filterByCountry.region;
+    console.log(filteredCountries)
+    
+};
 
-// const target = event.target.id;
+const sortByCapricornWomen = (filterByCapricornWomen) => {
+    console.log(filterByCapricornWomen);
+};
 
-// console.log(target) // Log alle id's
+const sortByOldCreditCards = (filterByOldCreditCards) => {
+    console.log(filterByOldCreditCards);
+};
+
+const sortByMostPeople = (filterByMostPeople) => {
+    console.log(filterByMostPeople);
+};
+
+const sortByAverageAge = (filterByAverageAge) => {
+    console.log(filterByAverageAge);
+};
+
+const sortByMatchMaking = (filterByMatchMaking) => {
+    console.log(filterByMatchMaking);
+}
 
 
+////////////////////////////////////////////////////////////////////
+
+
+//? function click(event) {
+//?     id := event.target.id
+//?     db := getRandomUsers()
+//?     filter := getFilter()
+//?     result := db.filter(filter)
+//?     addResultToDom(id,result)
+//?   } 
+//?   function getFilter(id) { // nu nog je sorting machine
+//?     filters = {
+//?        a := filterA
+//?        b := filterB
+//?     }
+//?     return filters[id]
+//?   }
+//?   function addFilterToDom(id, result) {
+//? create dom structure matching the result
+//? EG: countries only country names, persons full person records 
+//? loop over result, add dom structure with value of result
+//?   }
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+// const sortingMachine = (event) => {
+
+// console.log(event.target) 
 
 //         switch (event.target) {
 //             case countryList: {
@@ -95,23 +144,22 @@ buttons.forEach((allButtons) => {
 //                 console.log("genoeg");
 //                 break;
 //             }
-//             default:
-//                 console.log("...Verkeerde button geklikt...");
-//                 break;
-//         };
-//     });
+//         default:
+//             console.log("...Verkeerde button geklikt...");
+//             break;
+//     };
+// };
+
+// allButtons.forEach((buttons) => {
+//         buttons.addEventListener("click", sortingMachine);
 // });
 
-
 // const sortCountryList = (sortByCountry) => {
-//     main.innerHTML = '';
-//     const searchValue = sortByCountry.region;
-//     const sortCountry = sortByCountry.sort(searchValue);
-//     return databaseWithPersonData(sortCountry);
-
-// Maak een lijst van alle landen, gesorteerd op naam van het land.
-
-// alfabetische volgorde en dubbele eruit ?
+//     // main.innerHTML = "";
+//     const searchValue = randomPersonData.region;
+//     console.log(searchValue)
+    // const sortCountry = sortByCountry.sort(searchValue);
+    // return databaseWithPersonData(sortCountry);
 // };
 
 
@@ -120,78 +168,87 @@ buttons.forEach((allButtons) => {
 //     const searchValue = sortByCapricornWomen;
 //     const 
 
-// Maak een lijst van mensen:
-// laat voor- en achternaam en hun foto zien
-// sorteer de lijst op voornaam
-// elke persoon op die lijst moet
-// vrouw zijn
-// ouder zijn dan 30 (1990 of ouder) return sortByCapriconWomen.age > 30 && sortByCapricornWomen.age < 40;
-// een steenbok zijn (jarig van 22 december t/m 19 januari)
+// const ul_Tag = document.createElement('ul');
 
+// const databaseWithPersonData = (addClick) => {
+//     const persons = addClick.map(personData => {
+        // const personNames = [personData.name, personData.surname, personData.birthday.dmy];
+        // console.log(personNames);
+        // const source = personData.photo;
+        // const target = "https://picsum.photos/";
+        // const photos = Object.assign(target, source);
+        // console.log(photos);
+        // img_Tag.src = "https://picsum.photos/200";
+    // });
+    // const sortPersonName = addClick.sort((a, b) => a.name.localeCompare(b.name, "en"));
+    // console.log(sortPersonName);
+
+    // const sortPersonGender = addClick.filter(person => person.gender === 'female');
+    // console.log(sortPersonGender)
+    
+    // const sortPersonByAge = addClick.filter(person => person.age > 29)
+    // console.log(sortPersonByAge)
+    // const sortPersonAge = addClick.filter(person => person.birthday)
+    // console.log(sortPersonAge)
+// };
+
+// databaseWithPersonData(randomPersonData);
+
+
+
+// Maak een lijst van mensen:
+// laat voor- en achternaam  //* gedaan
+// laat hun foto zien //? gelukt, nu nog voor elk persoon veranderen.
+// sorteer de lijst op voornaam //* gedaan, sorteert op voornaam.
+// elke persoon op die lijst moet vrouw zijn //* gedaan, sorteert op vrouwen.
+// ouder zijn dan 30 (1990 of ouder) //* sorteert op 30 en ouder.
+// een steenbok zijn (jarig van 22 december t/m 19 januari) 
 // }
 
 
-// const sortOldCreditCards = () => {
 
-// De creditcard van sommige mensen gaat verlopen, we gaan ze bellen om ze te waarschuwen.
 
-// Maak een lijst van mensen:
+// const sortByOldCreditCards = (filterByOldCreditCards) => {
+//     console.log(filterByOldCreditCards);
+
+// const database = (addPerson) => {
+    // const copyArray = addPerson.map(persons => {
+    //     const result = [persons.name, persons.surname, persons.phone, persons.credit_card.number, persons.credit_card.expiration];
+    //     return result;
+    // })
+    // console.log(copyArray);
+//     const onlyAdults = addPerson.filter((arr, b) => {
+//         return b = arr.credit_card.expiration > "9/20";
+//     });
+//     console.log(onlyAdults);
+// };
+// database(randomPersonData);
+
 // laat per persoon de volgende data zien
-// voornaam, achternaam
-// telefoonnummer
-// creditcardnummer
-// verloopdatum
-// De lijst mag alleen volwassenen bevatten.
-// De verloopdatum moet in de toekomst liggen (van dit jaar).
+// voornaam, achternaam //* gedaan
+// telefoonnummer //* gedaan
+// creditcardnummer //* gedaan
+// verloopdatum //* gedaan
+
+// De lijst mag alleen volwassenen bevatten. //? zijn allen ouder als 18
+// De verloopdatum moet in de toekomst liggen (van dit jaar). //! lukt niet, is niet de juiste zoek-methode.
 // De verloopdatum moet in het komende jaar liggen.
 // Sorteer de lijst zodat de snelst verlopende creditcards bovenaan staan.
 
-// }
 
 
-// const mostPeople = () => {
 
-// Maak een lijst van alle landen die voorkomen in de data.
+
+// const sortByMostPeople = (filterByMostPeople) => {
+//     console.log(filterByMostPeople);
+
+// const database = persons => {
+//     const countries = persons.map(country => country.region);
+//     console.log(countries);
+
+
+// };
+// database(randomPersonData);
+// Maak een lijst van alle landen die voorkomen in de data. //* gedaan
 // Achter elk land moet komen te staan hoeveel van de mensen in de lijst in dat land wonen.
 // De lijst moet zo gesorteerd zijn dat de landen met de meeste mensen bovenaan staan.
-
-// };
-
-
-// const sortAverageAge = () => {
-
-// Als we op de knop voor deze opdracht drukken komt er een lijst met knoppen te staan.
-// De opdracht - knoppen blijven ook staan.
-// Elk van de nieuwe knoppen heeft als naam een land ("Nederland" bijvoorbeeld).
-// Als we dan op één van de landknoppen drukken zien we ergens
-// in de pagina een zin verschijnen met de tekst "De gemiddelde persoon in {land} is {jaar} oud".
-// Om die zin te kunnen laten zien moeten we de gemiddelde leeftijd voor dat land berekenen.
-// Rond de gemiddelde leeftijd af naar hele cijfers ( 18.4999 → 18 en 18.5 → 19).
-
-// }
-
-
-// const sortForMatchMaking = () => {
-
-// Als we op de knop voor deze opdracht drukken zien we een lijst van alle mensen.
-// de lijst is gesorteerd op voornaam
-// we willen alleen volwassenen zien
-// van elke persoon zien we:
-// voornaam, achternaam
-// foto
-// land
-// leeftijd
-// sterrenbeeld (Steenbok, Weegschaal etc)
-// Bij elke persoon zien we een knop met als titel "vind matches".
-// Als we op die knop drukken:
-// verdwijnt de grote lijst met mensen
-// zien we de aangeklikte persoon bovenaan staan
-// daaronder zien we een lijst van "matches" van die persoon
-// iemand mag niet met zichzelf matchen
-// Hoe bepalen we een match ?
-// Dat doen we op basis van sterrenbeeld.
-// Of mensen in een ander werelddeel wonen,
-// 30 jaar in leeftijd verschillen of niet elkaars taal spreken is niet belangrijk,
-// liefde overwint alle grenzen
-
-// };
