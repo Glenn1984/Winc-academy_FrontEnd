@@ -127,72 +127,59 @@ mostPeopleButton.addEventListener("click", getListOfMostPeopleEachCountry);
 
 //* Average age
 
-const getAListOfAverageAge = () => {
+const getListOfAverageAge = () => {
     listOfResults.innerHTML = "";
 
     const getArrayOfCountries = randomPersonData.map(countries => countries.region);
-    const hasCountries = [...new Set(getArrayOfCountries)]; //* deletes doubles.
+    const withoutDoubleCountries = [...new Set(getArrayOfCountries)]; //* deletes doubles.
     
-    hasCountries.sort((countryA, countryB) => countryA.localeCompare(countryB, "en"))
+    withoutDoubleCountries.sort((countryA, countryB) => countryA.localeCompare(countryB, "en"))
         .forEach(countries => {
             const li_Tag = document.createElement("li");
             const countryButton = document.createElement("button");
             const paragraph = document.createElement("p");
-            countryButton.className = countries;
-            listOfResults.appendChild(li_Tag).appendChild(countryButton)
-            listOfResults.appendChild(li_Tag).appendChild(paragraph);
+            countryButton.value = countries;
             countryButton.innerHTML += countries;
-            // li_Tag.innerHTML += `De gemiddelde persoon`;
-            paragraph.innerHTML += `De gemiddelde persoon`;
+            paragraph.className = countries;
+            listOfResults.appendChild(li_Tag).appendChild(countryButton);
+            listOfResults.appendChild(li_Tag).appendChild(paragraph);
+            // paragraph.innerHTML += `De gemiddelde persoon in dit land is xx jaar oud`;
         });
-    
+
+
     const getAverageAge = (event) => {
-        let events = event.target.className;
-        console.log(events);
-            const getPersonInfo = randomPersonData
-                .map(country => country.region)
-                .reduce((countryResult, countries) => {
-                    let count = countryResult[countries];
-                    countryResult[countries] = count === undefined ? 1 : ++count;
-                    return countryResult;
-                }, {});
-        // if (events == getPersonInfo) {
-        //     return getPersonInfo;
-        // }
-        const hasCountries = Object.entries(getPersonInfo);
-        const result = hasCountries.toString();
-        console.log(result)
-        hasCountries.filter(element => console.log(events === element.toString()));
+        const eventValue = event.target.value;
         
-                // .forEach(countries => {
-                //     const li_Tag = document.createElement("li");
-                //     listOfResults.appendChild(li_Tag);
-                //     li_Tag.innerHTML += countries;
-                // });
-            // console.log(getPersonInfo) //* alle landen + leeftijd
+        const amountOfPersonsEachCountry = randomPersonData.filter(countries => countries.region === eventValue);
+        const divideValue = amountOfPersonsEachCountry.length;
+        const countedAges = amountOfPersonsEachCountry.reduce((acc, currentValue) => acc + currentValue.age, 0);
+        const totalYearsOld = Math.round(countedAges / divideValue);
+
+
+        const countryButton = listOfResults.querySelectorAll("button[value]");
+        const result = [...countryButton];
+        const paragraph = listOfResults.querySelectorAll("p");
+        const bla = [...paragraph];
+        if (result.value === bla.className) {
+            const uitkomst = bla.className === result.value;
+            console.log(uitkomst)
+            uitkomst.innerHTML += `De gemiddelde persoon in ${eventValue} is ${totalYearsOld} jaar oud`;
+        } else {
+            alert("Please, make another choice.");
+        };
+
+        // result.forEach(el => {
+        //     paragraph.innerHTML = "";
+        //     return paragraph.innerHTML += `De gemiddelde persoon in ${eventValue} is ${totalYearsOld} jaar oud`;
+        // });
     };
     
         const allButtons = document.querySelectorAll("button");
     
         allButtons.forEach(button => button.addEventListener("click", getAverageAge));
-        
-        
-    
-    
-    //? target de juiste button
-    //? Voer de berekening uit
-    //? Stuur de berekening terug incl string.
-    //? Print op scherm.
-    //? Als je op een knop drukt krijg je als resultaat "De gemiddelde persoon in {land} is {jaar} oud".
 };
 
-averageAgeButton.addEventListener("click", getAListOfAverageAge);
-
-
-// OK, deze is een stukje complexer.
-// Als we dan op één van de landknoppen drukken zien we ergens in de pagina een zin verschijnen met de tekst "De gemiddelde persoon in {land} is {jaar} oud".
-// Om die zin te kunnen laten zien moeten we de gemiddelde leeftijd voor dat land berekenen.
-// Rond de gemiddelde leeftijd af naar hele cijfers ( 18.4999 → 18 en 18.5 → 19).
+averageAgeButton.addEventListener("click", getListOfAverageAge);
 
 
 
@@ -302,7 +289,7 @@ averageAgeButton.addEventListener("click", getAListOfAverageAge);
 //?   function getFilter(id) { // nu nog je sorting machine
 //?     filters = {
 //?        a := filterA
-//?        b := filterB
+//?        result := filterB
 //?     }
 //?     return filters[id]
 //?   }
