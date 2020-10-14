@@ -1,6 +1,9 @@
 const main_Tag = document.querySelector(".main");
 
 
+
+//? Het maken van het input veld met button.
+
 const createInputField = () => {
     const form_Tag = document.createElement("form");
     const input_Tag = document.createElement("input");
@@ -22,6 +25,8 @@ createInputField();
 
 
 
+//? Het maken van de TODO lijst.
+
 const makeToDoList = () => {
     const div_Tag = document.createElement("div");
     const ul_Tag = document.createElement("ul");
@@ -39,69 +44,85 @@ makeToDoList();
 
 
 
-const addToDo = async (toDo) => { //! conversion/getData
-    // console.log(toDo)
-    const response = await conversion(toDo); //? Result after conversion, send to Dom.
-    const result = response.map(res => {
+//? Het toevoegen van de TODO.
+
+const addToDoToList = async () => {
+    const toDoObject = await dataConversion();
+    
+    const completeObject = toDoObject.map(toDoObject => toDoObject.description);
+
+    completeObject.forEach(err => {
         const ul_Tag = document.querySelector(".todoList__list");
         const li_Tag = document.createElement("li");
         li_Tag.classList.add("todoList__item");
         li_Tag.innerHTML = `<span class="todoList__item">
-        ${res.description}</span>
+        ${err}</span>
         <button name="checkButton" class="todoList__checkButton">
         <i class="fas fa-check-square"></i></button>
         <button name="deleteButton" class="todoList__deleteButton">
         <i class="fas fa-trash"></i></button>`;
         ul_Tag.appendChild(li_Tag);
     });
-    return result;
 };
 
 
-const getSubmit = (event) => { //! sendData
+
+//? Het verkrijgen van de input waarde
+
+const getInput = async (event) => {
     event.preventDefault();
-    const input = document.querySelector("input");
-    if (input.value != "")
-        sendData({ description: input.value, done: false }); //? Result goes to server.
-    input.value = "";
+
+    const inputField = document.querySelector("input");
+    const input = inputField.value;
+    await sendData({ description: input, done: false });
+    await addToDoToList();
+    inputField.value = "";
 };
 
-document.querySelector("form").addEventListener("submit", getSubmit);
+document.querySelector("form").addEventListener("submit", getInput);
 
 
 
-const checkToDo = (event) => { //! putData
+//? Het checken van de TODO - doorstrepen.
+
+const checkToDo = async (event) => { //! putData
     const item = event.target.parentNode;
     console.log(item)
     if (item.style.textDecoration === "line-through") {
         item.style.textDecoration = "none";
 
-        putData({ id: item, done: true });
-         //? putData laten weten dat de staat veranderd - boolean true
-    
+        //? PUT Data - true
+
+        // await putData();
     } else {
         item.style.textDecoration = "line-through";
 
-        putData({ id: item, done: false });
-        //? putData laten weten dat de staat veranderd - boolean false
+        //? PUT Data  - false
     };
 };
 
-// In je delete geef je geen body mee, dus daar weet hij inderdaad niet wat hij moet doen.
-// In putData zou je de id in de body kunnen verwerken.
 
-const deleteToDo = (event) => { //! deleteData
+
+//? Het verwijderen van een TODO
+
+const deleteToDo = (event) => {
+    const id = event.target;
+
     const item = event.target.parentNode;
     item.addEventListener("transitionend", () => {
         item.remove();
 
-        //? deleteData verwijderen op id.
-        deleteData({id: id});
     });
+
+    deleteData(id);
+    
     item.classList = "todoList__item--fall";
+    item.remove();
 };
 
 
+
+//? De check waar de geklikte button heen moet - doorstrepen of verwijderen.
 
 const getDeleteOrCheckClick = (event) => {
     
@@ -116,13 +137,15 @@ document.querySelector(".todoList__list").addEventListener("click", getDeleteOrC
 
 
 
-const getClearAll = () => { //! deleteAllData
+// //? Alles verwijderen van de TODO lijst
+
+const getClearAll = async () => {
+    const object = await dataConversion();
+    
     const ul_Tag = document.querySelector(".todoList__list");
-    ul_Tag.remove();
+    ul_Tag.innerHTML = "";
 
-    //? deleteAllData - alle id's verwijderen.
-
+    deleteAllData(object.id);
 };
 
 const a_Tag = document.querySelector(".todoList__clearAll").addEventListener("click", getClearAll);
-
