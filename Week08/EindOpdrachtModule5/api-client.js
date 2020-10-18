@@ -1,83 +1,74 @@
 const apiUrl = `https://wincacademydatabase.firebaseio.com/glenn/tasks.json`;
 
 
+const getData = async () => {
+    try {
+        const res = await fetch(apiUrl, {
+            method: "GET",
+        });
+        const result = await res.json();
 
-//? POST
+        // console.log("Before (the raw result):", result);
+        let tasks = Object.keys(result).map(key => ({
+            id: key,
+            description: result[key].description,
+            done: result[key].done
+        }));
 
-const sendData = async (data) => {
-    await fetch(apiUrl, {
-        method: "POST",
-        body: JSON.stringify(data),
-    });
+        // console.log("After the tasks array", tasks);
+// console.log("id", tasks[0].id)
+        return tasks;
+    } catch (error) {
+        console.log("GET request", error);
+    };
 };
 
 
 
-//? GET
-
-const getData = async () => {
+const sendData = async (data) => {
     try {
-        const res = await fetch(apiUrl, { method: "GET" })
-
+        const res = await fetch(apiUrl, {
+            method: "POST",
+            body: JSON.stringify(data),
+        });
         return await res.json();
-    } catch (error){
-        console.log(error);
+    } catch (error) {
+        console.log("POST request", error);
     }
 };
 
 
 
-//? Data Conversion
+const updateData = async (id, descValue, doneValue) => {
+    try {
+        // console.log("id PUTData ", id);
+        // console.log("typeof PUTData ", typeof id)
+        const res = await fetch(`https://wincacademydatabase.firebaseio.com/glenn/tasks/${id}.json`, {
+            method: "PUT",
+            body: JSON.stringify({
+                description: descValue,
+                done: doneValue,
+            }),
+        });
 
-const dataConversion = async () => {
-    const result = await getData();
-
-    let tasks = Object.keys(result).map(key => ({
-        id: key,
-        description: result[key].description,
-        done: result[key].done,
-    }));
-    return tasks;
+        return await res.json();
+    } catch (error) {
+        console.log("PUT request", error);
+    };
 };
 
 
-
-//? PUT
-
-const putData = async (id, descValue, doneValue) => {
-    const res = await fetch(apiUrl, {
-        method: "PUT",
-        body: JSON.stringify({
-            id: id,
-            description: descValue,
-            done: doneValue,
-        })
-    });
-    return res.json();
-};
-
-
-
-//? DELETE
 
 const deleteData = async (id) => {
-    const res = await fetch(apiUrl, {
-        method: "DELETE",
-        body: JSON.stringify({
-            id: id,
-        })
-    });
-};
+    try {
+        // console.log("id deleteData ", id);
+        // console.log("typeof deleteData ", typeof id)
+        const res = await fetch(`https://wincacademydatabase.firebaseio.com/glenn/tasks/${id}.json`, {
+            method: "DELETE"
+        });
 
-
-
-//? DELETE all Data.
-
-const deleteAllData = async (id) => {
-    await fetch(apiUrl, {
-        method: "DELETE",
-        body: JSON.stringify({
-            id: id,
-        })
-    });
+        return res.json();
+    } catch (error) {
+        console.log("DELETE request", error);
+    };
 };

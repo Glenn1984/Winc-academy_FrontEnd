@@ -1,151 +1,129 @@
-const main_Tag = document.querySelector(".main");
 
+const createToDoList = () => {
+    const main = document.querySelector(".main");
+    
+    const form = document.createElement("form");
+    form.classList.add("form");
 
+    const inputField = document.createElement("input");
+    inputField.type = "text";
+    inputField.classList.add("form__text")
+    inputField.placeholder = "New to do...";
 
-//? Het maken van het input veld met button.
+    const inputButton = document.createElement("button");
+    inputButton.type = "submit";
+    inputButton.classList.add("form__button");
+    inputButton.textContent = "Add Task";
 
-const createInputField = () => {
-    const form_Tag = document.createElement("form");
-    const input_Tag = document.createElement("input");
-    const button_Tag = document.createElement("button");
-    const icon_Tag = document.createElement("i");
-    main_Tag.appendChild(form_Tag);
-    form_Tag.classList.add("form");
-    form_Tag.appendChild(input_Tag);
-    input_Tag.type = "form__text";
-    input_Tag.placeholder = "New To Do...";
-    form_Tag.appendChild(button_Tag);
-    button_Tag.type = "submit";
-    button_Tag.classList.add("form__button");
-    button_Tag.appendChild(icon_Tag);
-    icon_Tag.classList.add("fas","fa-plus-square");
-};
-
-createInputField();
-
-
-
-//? Het maken van de TODO lijst.
-
-const makeToDoList = () => {
-    const div_Tag = document.createElement("div");
     const ul_Tag = document.createElement("ul");
-    const a_Tag = document.createElement("a");
-    main_Tag.appendChild(div_Tag);
-    div_Tag.classList.add("todoList");
-    div_Tag.appendChild(ul_Tag);
-    ul_Tag.classList.add("todoList__list");
-    div_Tag.appendChild(a_Tag);
-    a_Tag.classList.add("todoList__clearAll");
-    a_Tag.textContent = "Clear All";
+    ul_Tag.classList.add("list");
+
+    main.appendChild(form).append(inputField, inputButton);
+    main.append(ul_Tag);
 };
 
-makeToDoList();
+createToDoList();
 
 
 
-//? Het toevoegen van de TODO.
+const emptyToDoList = (() => (document.querySelector("ul").innerHTML = ""));
+
+
 
 const addToDoToList = async () => {
-    const toDoObject = await dataConversion();
-    
-    const completeObject = toDoObject.map(toDoObject => toDoObject.description);
+    const toDoObject = await getData();
 
-    completeObject.forEach(err => {
-        const ul_Tag = document.querySelector(".todoList__list");
+    toDoObject.forEach(toDo => {
+        const ul_Tag = document.querySelector("ul");
         const li_Tag = document.createElement("li");
-        li_Tag.classList.add("todoList__item");
-        li_Tag.innerHTML = `<span class="todoList__item">
-        ${err}</span>
-        <button name="checkButton" class="todoList__checkButton">
-        <i class="fas fa-check-square"></i></button>
-        <button name="deleteButton" class="todoList__deleteButton">
-        <i class="fas fa-trash"></i></button>`;
-        ul_Tag.appendChild(li_Tag);
+        li_Tag.id = toDo.id;
+        li_Tag.classList.add("list__item");
+
+        const idSpan = document.createElement("span");
+        idSpan.classList.add("list__idspan");
+        idSpan.textContent = toDo.id;
+
+        const descSpan = document.createElement("span");
+        descSpan.classList.add("list__descspan");
+        descSpan.textContent = toDo.description;
+        descSpan.contentEditable = true;
+        
+        const checkButton = document.createElement("button");
+        checkButton.name = "checkButton";
+        checkButton.id = toDo.id;
+        checkButton.classList.add("list__checkbtn");
+        checkButton.type = "submit";
+        checkButton.innerHTML = `<i class="fas fa-check-square"></i>`;
+
+        const deleteButton = document.createElement("button");
+        deleteButton.name = "deleteButton";
+        deleteButton.id = toDo.id;
+        deleteButton.classList.add("list__deletebtn");
+        deleteButton.type = "submit";
+        deleteButton.innerHTML = `<i class="fas fa-trash"></i>`;
+
+        ul_Tag.appendChild(li_Tag).append(idSpan, descSpan, checkButton, deleteButton);
     });
 };
 
+addToDoToList();
 
 
-//? Het verkrijgen van de input waarde
 
 const getInput = async (event) => {
     event.preventDefault();
 
     const inputField = document.querySelector("input");
-    const input = inputField.value;
-    await sendData({ description: input, done: false });
-    await addToDoToList();
+    await sendData({ description: inputField.value, done: false });
+
+    emptyToDoList();
+    addToDoToList();
+    
     inputField.value = "";
+    
 };
 
 document.querySelector("form").addEventListener("submit", getInput);
 
 
 
-//? Het checken van de TODO - doorstrepen.
-
-const checkToDo = async (event) => { //! putData
-    const item = event.target.parentNode;
-    console.log(item)
-    if (item.style.textDecoration === "line-through") {
-        item.style.textDecoration = "none";
-
-        //? PUT Data - true
-
-        // await putData();
+const checkToDo = async (event) => {
+    const listItem = event.target.parentNode;
+    const checkButtonID = event.target.id;
+    // console.log("check button id ", checkButtonID);
+    const checkButtonDesc = event.target.previousSibling.innerHTML;
+    // console.log("check button desc ", checkButtonDesc);
+    if (listItem.style.textDecoration === "line-through") {
+        listItem.style.textDecoration = "none";
+        await updateData(checkButtonID, checkButtonDesc, false);
     } else {
-        item.style.textDecoration = "line-through";
-
-        //? PUT Data  - false
+        listItem.style.textDecoration = "line-through";
+        await updateData(checkButtonID, checkButtonDesc, true);
     };
 };
 
 
 
-//? Het verwijderen van een TODO
+const deleteToDo = async (event) => {
+    const listItem = event.target.parentNode;
+    const deleteListID = event.target.parentNode.id;
+    const deleteButtonID = event.target.id;
 
-const deleteToDo = (event) => {
-    const id = event.target;
+    if (deleteListID === deleteButtonID)
+    await deleteData(deleteButtonID);
 
-    const item = event.target.parentNode;
-    item.addEventListener("transitionend", () => {
-        item.remove();
-
-    });
-
-    deleteData(id);
-    
-    item.classList = "todoList__item--fall";
-    item.remove();
+    listItem.classList = "list__item--fall";
+    listItem.remove();
 };
 
 
 
-//? De check waar de geklikte button heen moet - doorstrepen of verwijderen.
-
-const getDeleteOrCheckClick = (event) => {
-    
-    if (event.target.name === "checkButton")
+const sortClickToCheckOrDelete = async (event) => {
+    if (event.target.name === "checkButton") {
         checkToDo(event);
-    
-    if (event.target.name === "deleteButton")
+    } else if (event.target.name === "deleteButton") {
         deleteToDo(event);
+    };
 };
 
-document.querySelector(".todoList__list").addEventListener("click", getDeleteOrCheckClick);
-
-
-
-// //? Alles verwijderen van de TODO lijst
-
-const getClearAll = async () => {
-    const object = await dataConversion();
-    
-    const ul_Tag = document.querySelector(".todoList__list");
-    ul_Tag.innerHTML = "";
-
-    deleteAllData(object.id);
-};
-
-const a_Tag = document.querySelector(".todoList__clearAll").addEventListener("click", getClearAll);
+document.querySelector(".list").addEventListener("click", sortClickToCheckOrDelete);
