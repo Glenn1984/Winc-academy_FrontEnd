@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@-webkit-keyframes animationFramesWin {
+  0% {
+    -webkit-transform: translate(-370px, 0px) skewX(-30deg);
+            transform: translate(-370px, 0px) skewX(-30deg);
+  }
+  60% {
+    -webkit-transform: translate(-40px, 0px) skewX(30deg);
+            transform: translate(-40px, 0px) skewX(30deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px) skewX(-15deg);
+            transform: translate(0px, 0px) skewX(-15deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) skewX(0deg);
+            transform: translate(0px, 0px) skewX(0deg);
+  }
+}
+@keyframes animationFramesWin {
+  0% {
+    -webkit-transform: translate(-370px, 0px) skewX(-30deg);
+            transform: translate(-370px, 0px) skewX(-30deg);
+  }
+  60% {
+    -webkit-transform: translate(-40px, 0px) skewX(30deg);
+            transform: translate(-40px, 0px) skewX(30deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px) skewX(-15deg);
+            transform: translate(0px, 0px) skewX(-15deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) skewX(0deg);
+            transform: translate(0px, 0px) skewX(0deg);
+  }
+}
+
+@-webkit-keyframes animationFramesLose {
+  0% {
+    -webkit-transform: translate(320px, 0px) skewX(-30deg);
+            transform: translate(320px, 0px) skewX(-30deg);
+  }
+  60% {
+    -webkit-transform: translate(-40px, 0px) skewX(30deg);
+            transform: translate(-40px, 0px) skewX(30deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px) skewX(-15deg);
+            transform: translate(0px, 0px) skewX(-15deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) skewX(0deg);
+            transform: translate(0px, 0px) skewX(0deg);
+  }
+}
+
+@keyframes animationFramesLose {
+  0% {
+    -webkit-transform: translate(320px, 0px) skewX(-30deg);
+            transform: translate(320px, 0px) skewX(-30deg);
+  }
+  60% {
+    -webkit-transform: translate(-40px, 0px) skewX(30deg);
+            transform: translate(-40px, 0px) skewX(30deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, 0px) skewX(-15deg);
+            transform: translate(0px, 0px) skewX(-15deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) skewX(0deg);
+            transform: translate(0px, 0px) skewX(0deg);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  margin: 0 auto;
+  min-width: 5.5rem;
+  padding: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  background-color: #0b0909;
+  color: #d6d6d6;
+}
+
+.body {
+  margin: 3.125rem;
+  height: 100%;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1em;
+  grid-auto-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.title {
+  grid-column: span 5;
+  margin: 1rem;
+  border: #8c8c8c 5px double;
+  height: 4rem;
+  position: relative;
+  color: #d82429;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background: repeating-linear-gradient(45deg, #0b0909, #44444c 10px, #d6d6d6 40px, #8c8c8c 20px);
+}
+
+.description {
+  grid-column: span 5;
+  margin: 0rem auto;
+  color: #8c8c8c;
+}
+
+.description::after {
+  text-decoration: underline;
+}
+
+.input {
+  grid-column: span 5;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  font-size: x-large;
+  border-radius: 3%;
+  border-color: aqua;
+}
+
+.input::-webkit-input-placeholder {
+  color: #d6d6d6;
+  opacity: 1;
+}
+
+.input:-ms-input-placeholder {
+  color: #d6d6d6;
+  opacity: 1;
+}
+
+.input::-ms-input-placeholder {
+  color: #d6d6d6;
+  opacity: 1;
+}
+
+.input::placeholder {
+  color: #d6d6d6;
+  opacity: 1;
+}
+
+.input:optional {
+  border-color: #d82429;
+  border-width: 0.2rem;
+  border-radius: 3%;
+  color: #d6d6d6;
+}
+
+.guess {
+  grid-column: span 2;
+  color: #63b521;
+}
+
+.guess:hover {
+  background-color: #7dda32;
+  color: #44444c;
+}
+
+.spacing {
+  grid-column: span 1;
+  margin: auto;
+}
+
+.spacing::first-letter {
+  color: #63b521;
+}
+
+.spacing__child {
+  color: #d82429;
+}
+
+.restart {
+  grid-column: span 2;
+  color: #d82429;
+}
+
+.restart:hover {
+  background-color: #d82429;
+  color: #8c8c8c;
+}
+
+.word {
+  grid-column: span 3;
+  margin: 1rem;
+}
+
+.the_word {
+  grid-column: span 2;
+  margin: 1rem;
+  color: #63b521;
+}
+
+.guessletter {
+  grid-column: span 3;
+  margin: 0.5rem auto;
+}
+
+.guessed_letters {
+  grid-column: span 2;
+  margin: 0.5rem auto;
+  color: #d82429;
+}
+
+.spacer {
+  grid-column: span 1;
+}
+
+.lives {
+  grid-column: span 3;
+  margin: 1rem;
+}
+
+.win,
+.lose {
+  display: none;
+  grid-column: span 5;
+}
+
+.win {
+  position: fixed;
+  top: 58%;
+  left: 20%;
+  -webkit-animation: animationFramesWin ease-out 0.8s;
+          animation: animationFramesWin ease-out 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.win__text {
+  color: #63b521;
+}
+
+.lose {
+  position: fixed;
+  top: 58%;
+  left: 10%;
+  -webkit-animation: animationFramesLose ease-out 0.8s;
+          animation: animationFramesLose ease-out 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.lose__text {
+  color: #d82429;
+}
+
+@media screen and (min-width: 600px) {
+  .win {
+    top: 58%;
+    left: 20%;
+  }
+  .lose {
+    top: 58%;
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .win {
+    top: 58%;
+    left: 28%;
+  }
+  .lose {
+    top: 58%;
+    left: 20%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .win {
+    top: 58%;
+    left: 32%;
+  }
+  .lose {
+    top: 58%;
+    left: 27%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

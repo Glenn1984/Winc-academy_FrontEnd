@@ -1,0 +1,2 @@
+@import"https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";*{-webkit-box-sizing:border-box;box-sizing:border-box;font-size:16px;margin:0 auto;padding:0;font-weight:500;letter-spacing:1px;text-align:center;text-decoration:none;font-family:"Poppins",sans-serif;background-color:#0b0909;color:#d6d6d6}.body{margin:3.125rem}.container{display:grid;grid-template-columns:repeat(5, 1fr);grid-template-rows:repeat(5, 1fr);grid-gap:2em}.win,.lose{display:none}.win h2{color:red}.lose h2{color:blue}
+/*# sourceMappingURL=styles.min.css.map */

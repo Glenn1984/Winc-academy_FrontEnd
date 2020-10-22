@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+@import "./constants";
+
+
+
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0 auto;
+  min-width: 5.5rem;
+  padding: 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins',sans-serif;
+  background-color: $colorBlack;
+  color: $colorPewter;
+};
+
+.body {
+  margin: 3.125rem;
+  height: 100%;
+};
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1em;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+};
+
+.title {
+  grid-column: span 5;
+  margin: 1rem;
+  border: #8c8c8c 5px double;
+  height: 4rem;
+  position: relative;
+  color: #d82429;
+  font-weight: 700;
+  font-size: 2.5rem;
+  background: repeating-linear-gradient(
+    45deg,
+    $colorBlack,
+    $colorEbony 10px,
+    $colorPewter 40px,
+    $colorGray 20px
+  );
+};
+
+.description {
+  grid-column: span 5;
+  margin: 0rem auto;
+  color: $colorGray;
+  &::after {
+    text-decoration: underline;
+  };
+};
+
+//! Win or Lose has different style - See the end...
+
+.input {
+  grid-column: span 5;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  font-size: x-large;
+  border-radius: 3%;
+  border-color: aqua;
+  &::placeholder {
+    color: $colorPewter;
+    opacity: 1;
+  };
+  &:optional {
+    border-color: #d82429;
+    border-width: 0.2rem;
+    border-radius: 3%;
+    color: $colorPewter;
+  }
+};
+
+.guess {
+  grid-column: span 2;
+  color: $colorGreen;
+  &:hover {
+    background-color: #7dda32;
+    color: $colorEbony;
+  };
+};
+
+.spacing {
+  grid-column: span 1;
+  margin: auto;
+  &::first-letter {
+    color: $colorGreen;
+  };
+  &__child {
+    color: $colorRed;
+  };
+};
+
+.restart {
+  grid-column: span 2;
+  color: $colorRed;
+    &:hover {
+      background-color: $colorRed;
+      color: $colorGray;
+    };
+};
+
+.word {
+  grid-column: span 3;
+  margin: 1rem;
+};
+
+.the_word {
+  grid-column: span 2;
+  margin: 1rem;
+  color: $colorGreen;
+};
+
+.guessletter {
+  grid-column: span 3;
+  margin: 0.5rem auto;
+};
+
+.guessed_letters {
+  grid-column: span 2;
+  margin: 0.5rem auto;
+  color: $colorRed;
+};
+
+.spacer {
+  grid-column: span 1;
+}
+
+.lives {
+  grid-column: span 3;
+  margin: 1rem;
+};
+
+
+.win,
+.lose {
+  display: none;
+  grid-column: span 5;
+};
+
+.win {
+  position: fixed;
+  top: 58%;
+  left: 20%;
+  animation: animationFramesWin ease-out 0.8s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards;
+  &__text {
+    color: $colorGreen;
+  };
+};
+
+.lose {
+  position: fixed;
+  top: 58%;
+  left: 10%;
+  animation: animationFramesLose ease-out 0.8s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards;
+  &__text {
+    color: $colorRed;
+  };
+};
+
+//! Media Queries
+////////////////////////////////////////////////////
+
+@media screen and (min-width: 600px) {
+  .win {
+    top: 58%;
+    left: 20%;
+  };
+  
+  .lose {
+    top: 58%;
+    left: 10%;
+  };
+};
+
+@media screen and (min-width: 800px) {
+  .win {
+    top: 58%;
+    left: 28%;
+  };
+  
+  .lose {
+    top: 58%;
+    left: 20%;
+  };
+};
+
+@media screen and (min-width: 1000px) {
+  .win {
+    top: 58%;
+    left: 32%;
+  };
+  
+  .lose {
+    top: 58%;
+    left: 27%;
+  };
+};
