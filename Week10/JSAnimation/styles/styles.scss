@@ -1,0 +1,152 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+};
+
+// h1 { // Headers and nav
+//     font-family: brandon-grotesque, sans-serif;
+//     font-size: 2rem;
+//     font-style: normal;
+//     font-weight: bold;
+//     letter-spacing: 0.085rem;
+//     line-height: 2rem;
+//     text-transform: uppercase;
+//     color: #1c2f58;
+// };
+
+// p { // content 1 for main content
+//     font-family: ff-tisa-web-pro;
+//     font-size: 1.5rem;
+//     font-style: normal;
+//     font-weight: normal;
+//     letter-spacing: normal;
+//     line-height: 2rem;
+//     text-transform: none;
+//     color: #1c2f58;
+// };
+
+// span{ // content 2 for under texts and quotes
+//     font-family: ff-tisa-web-pro;
+//     font-size: 2rem;
+//     font-style: italic;
+//     font-weight: normal;
+//     letter-spacing: normal;
+//     line-height: 2rem;
+//     text-transform: none;
+//     color: #1c2f58;
+
+// };
+
+
+
+body {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.085rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: #bde1fb;
+};
+
+.landing {
+    min-height: 100vh;
+    background: url("../Monaco.jpeg");
+    background-size: cover;
+    padding: 0rem 5rem;
+};
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+};
+
+.nav-links {
+    display: flex;
+    list-style: none;
+};
+
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+};
+
+#logo {
+    font-family: ff-tisa-web-pro, cursive;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 2rem;
+    text-transform: none;
+    color: #6ab7f8;
+};
+
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-family: ff-tisa-web-pro, cursive;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 6rem;
+    text-transform: none;
+    color: #269cf1;
+};
+
+
+// animation slider
+
+.intro {
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+.slider {
+    background: #616161;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+};
+
+.intro-text {
+    font-family: ff-tisa-web-pro, cursive;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 6rem;
+    text-transform: none;
+    color: #6ab7f8;
+};
+
+.hide {
+    background: #000000;
+    overflow: hidden;
+};
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+};
+
+.text {
+    font-size: 3rem;
+};
