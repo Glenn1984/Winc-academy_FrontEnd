@@ -10,7 +10,8 @@ const InputForm = () => {
     const [rating, setRating] = useState();
     const dispatch = useDispatch();
 
-    return <form onSubmit={() => {
+    return <form className="main__form" onSubmit={(event) => {
+        event.preventDefault()
         dispatch(
             addFavourites(
                 {
@@ -22,33 +23,38 @@ const InputForm = () => {
                 }
             )
         );
-        // setTitle("");
-        // setArtist("");
-        // setGenre("");
-        // setRating("");
+        setTitle("");
+        setArtist("");
+        setGenre("");
+        setRating("");
         }}>
-        <label>
-            Title:
+        <label className="main__form--text1">
+            <span className="main__form--space">Title:</span>
             <input
                 type="text"
                 value={title}
+                className="main__form--color1"
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="Title"
             />
         </label>
-        <label>
-            Artist:
+        <label className="main__form--text1">
+            <span className="main__form--space">Artist:</span>
             <input
                 type="text"
+                className="main__form--color1"
                 value={artist}
                 onChange={(e) => setArtist(e.target.value)}
                 placeholder="Artist"
             />
         </label>
-        <label>
-            Genre:
-                <select value={genre}
-                onChange={(e) => setGenre(e.target.value)}>
+        <label className="main__form--text2">
+            <span className="main__form--space">Genre:</span>
+            <select
+                className="main__form--color1"
+                value={genre}
+                onChange={(e) => setGenre(e.target.value)}
+            >
                 <option default>Genre</option>
                 <option value="Blues">Blues</option>
                 <option value="Classics">Classics</option>
@@ -61,9 +67,10 @@ const InputForm = () => {
                 <option value="Rock">Rock</option>
             </select>
         </label>
-        <label>
-            Rating:
-                <select
+        <label className="main__form--text3">
+            <span className="main__form--space">Rating:</span>
+            <select
+                className="main__form--color1"
                 value={rating}
                 onChange={(e) => setRating(e.target.value)}
             >
@@ -75,7 +82,7 @@ const InputForm = () => {
                 <option value="5">5</option>
             </select>
         </label>
-        <button>Add Song</button>
+        <button className="main__form--color2">Add Song</button>
     </form>
 };
 

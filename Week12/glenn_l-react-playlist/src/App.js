@@ -7,6 +7,7 @@ import {
 import { Navbar } from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import './styles/App.css';
 
 
 const App = () => {
@@ -15,7 +16,7 @@ return (
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/pages/About" component={About} />
+        <Route path="/pages/About" component={About} />
       </Switch>
     </Router>
   );

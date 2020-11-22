@@ -4,17 +4,13 @@ import Table from "../components/Table";
 
 const Home = () => {
     return <>
-            <div>
-                <br/>
-                    <h3>My favourite playlist</h3>
-                    <InputForm />
-            </div>
-                <br/>
-                <br/>
-                <hr />
-            <div>
-                <Table />
-            </div>
+            <main className="main">
+                <h3 className="main__text">Add here your favourite songs</h3>
+                <InputForm />
+                <section>
+                    <Table />
+                </section>
+        </main>
     </>
 };
 

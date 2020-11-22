@@ -3,17 +3,17 @@ import { useSelector } from "react-redux";
 
 const Table = () => {
     const currentState = useSelector(state => state.handleState);
-    return <table>
-                <thead>
+    return <table className="table">
+                <thead className="table__header">
                     <tr>
-                        <th>Songs</th>
-                        <th>Artist</th>
-                        <th>Genre</th>
-                        <th>Rating</th>
-                        <th>{" "}</th>
+                        <th className="table__header--style">Title</th>
+                        <th className="table__header--style">Artist</th>
+                        <th className="table__header--style">Genre</th>
+                        <th className="table__header--style">Rating</th>
+                        <th className="table__header--style">{" "}</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className="table__body">
                     {currentState.map(state => {
                         return <TableItem key={state.id} value={state} />
                     })}
