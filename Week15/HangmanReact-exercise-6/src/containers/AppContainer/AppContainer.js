@@ -43,11 +43,16 @@ class AppContainer extends React.Component {
 
   guessLetterHandler = event => {
     const inputGiven = this.state.currentChosenLetter.length > 0;
-    if (inputGiven) {
+    const newLetter = !this.state.guessedLetters.includes(
+      this.state.currentChosenLetter
+    );
+    //! Check toegevoegd anders is er geen controle.
+    if (inputGiven && newLetter) {
       const newGuessedLetters = [...this.state.guessedLetters];
       newGuessedLetters.push(this.state.currentChosenLetter);
       this.setState({
-        guessedLetters: newGuessedLetters
+        guessedLetters: newGuessedLetters,
+        currentChosenLetter: ""
       });
     }
     this.setState({ currentChosenLetter: "" });

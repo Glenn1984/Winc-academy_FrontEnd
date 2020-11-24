@@ -42,12 +42,19 @@ class AppContainer extends React.Component {
   };
 
   guessLetterHandler = event => {
-    const newGuessedLetters = [...this.state.guessedLetters];
-    newGuessedLetters.push(this.state.currentChosenLetter);
-    this.setState({
-      guessedLetters: newGuessedLetters,
-      currentChosenLetter: ""
-    });
+    const inputGiven = this.state.currentChosenLetter.length > 0;
+    const newLetter = !this.state.guessedLetters.includes(
+      this.state.currentChosenLetter
+    );
+    if (inputGiven && newLetter) {
+      //! React-Sight en begrijpen van de functies bood de oplossing.
+      const newGuessedLetters = [...this.state.guessedLetters];
+      newGuessedLetters.push(this.state.currentChosenLetter);
+      this.setState({
+        guessedLetters: newGuessedLetters,
+        currentChosenLetter: ""
+      });
+    };
     event.preventDefault();
   };
 

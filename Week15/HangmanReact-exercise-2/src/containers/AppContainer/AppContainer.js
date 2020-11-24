@@ -47,7 +47,8 @@ class AppContainer extends React.Component {
       this.state.currentChosenLetter
     );
     if (inputGiven && newLetter) {
-      const newGuessedLetters = [...this.state.guesedLetters];
+      const newGuessedLetters = [...this.state.guessedLetters];
+      //! npm start + react-sight + console gaf de oplossing.
       newGuessedLetters.push(this.state.currentChosenLetter);
       this.setState({
         guessedLetters: newGuessedLetters

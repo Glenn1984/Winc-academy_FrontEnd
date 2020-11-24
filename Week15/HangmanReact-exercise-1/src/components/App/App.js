@@ -28,8 +28,9 @@ const App = props => {
   const gameIsOver = isGameOver(game, wrongLetters, wordWasGuessed);
 
   const gameOver = gameIsOver ? (
-    <GameOver chosenWord={game.chosenWord} wordGuesed={wordWasGuessed} />
+    <GameOver chosenWord={game.chosenWord} wordGuessed={wordWasGuessed} />
   ) : null;
+  //! Door npm start en kijken met React-Sight zag ik dat er iets niet klopte met de ternary/if-else zag al snel dat er een type fout was.
 
   return (
     <div className="App">

@@ -27,7 +27,8 @@ const isGameOver = game => {
     return true;
   }
   if (
-    getWrongLetters(game.chosenWord, game.guessedLetters).length >
+    getWrongLetters(game.chosenWord, game.guessedLetters).length >=
+    //! Het moest iets zijn met de lengte vergelijking, door lezen gevonden.
     game.maxGuesses
   ) {
     return true;

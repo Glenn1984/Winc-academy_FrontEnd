@@ -15,7 +15,8 @@ const wordGuessed = (word, guessedLetters) => {
   // We can do this with a for loop to.
   let remaining = word.filter(letter =>
     // If the letter is guessed return false (we want to remove that then)
-    guessedLetters.includes(letter)
+    !guessedLetters.includes(letter)
+    //! npm start + react-sight, elk bestand controleren en begrijpen van functies liet zien dat hier fout ging.
   );
   // If we have letters left the word is not yet guessed
   return remaining.length === 0;
