@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import "./constants";
+
+.header {
+    @include secondaryBorder;
+    margin: 0 auto;
+    height: 36rem;
+    background-color: $primaryColor;
+    border-top-style: solid;
+    border-bottom-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    &__wrapper {
+        @include secondaryBorder;
+        margin: 1.5rem 2rem;
+        width: 100vw;
+        height: 13rem;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-start;
+    };
+    &__title {
+        margin: 1rem;
+        padding: 1rem;
+        color: $primaryTextColor;
+        font-size: 2.4rem;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.1rem;
+        line-height: 4rem;
+        height: 10rem;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+    };
+    &__tabs {
+        @include secondaryBorder;
+        margin: -4rem 2rem;
+        color: $iconLightColor2;
+        background-color: $primaryTextColor;
+        font-size: 1.2rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        line-height: 1.6rem;
+        border-radius: 25px;
+        width: 36vw;
+        height: 4rem;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    };
+};
+
+.main {
+    @include secondaryBorder;
+    margin: 0 auto;
+    height: 84rem;
+    background-color: $primaryTextColor;
+    border-top-style: solid;
+    border-bottom-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    &__chart {
+        @include secondaryBorder;
+        margin: 2rem auto;
+        border-radius: 25px;
+        background-color: $primaryColor;
+        height: 20rem;
+        width: 20rem;
+        font-family: 'Inter', sans-serif;
+    };
+    &__verticalbar {
+        @include primaryBorder;
+        margin: 2rem auto;
+        background-color: $primaryColor;
+        border-radius: 25px;
+        writing-mode: vertical-rl;
+        height: 20rem;
+    };
+    &__horizontalbar {
+        @include secondaryBorder;
+        margin: 2rem auto;
+        background-color: $secondaryColor;
+        border-radius: 25px;
+        height: 0rem;
+        width: 45rem;
+        top: -2rem;
+    };
+};
+
+.footer {
+    @include secondaryBorder;
+    margin: 0 auto;
+    height: 20rem;
+    background-color: $primaryColor;
+    &__title {
+        @include secondaryBorder;
+        margin: 2rem 2rem;
+        color: $primaryTextColor;
+        font-size: 2.4rem;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.1rem;
+        line-height: 4rem;
+        text-align: center;
+        border-radius: 25px;
+    };
+};

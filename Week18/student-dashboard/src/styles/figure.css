@@ -1,0 +1,95 @@
+/* Variables */
+/* End Variables */
+/* Mixins */
+.figure {
+  border: 0.3rem #4a67e9 solid;
+  margin: 1rem;
+  border: 0.3rem #b14d1c solid;
+  background-color: #003db6;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+  transition: width 2s, height 2s, transform 2s, -webkit-transform 2s;
+}
+
+.figure:hover {
+  width: 10rem;
+  height: 10rem;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.figure__leaf--top {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0.3rem #e87b48 solid;
+  background-color: #8594ff;
+  top: 30%;
+  left: 30%;
+  border-radius: 1px 60px 1px 60px;
+}
+
+.figure__leaf--right {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0.3rem #4a67e9 solid;
+  background-color: #ffab75;
+  top: 30%;
+  left: 70%;
+  border-radius: 60px 1px 60px 1px;
+}
+
+.figure__leaf--bottom {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0.3rem #e87b48 solid;
+  background-color: #8594ff;
+  top: 70%;
+  left: 70%;
+  border-radius: 1px 60px 1px 60px;
+}
+
+.figure__leaf--left {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 0.3rem #4a67e9 solid;
+  top: 70%;
+  left: 30%;
+  background-color: #ffab75;
+  border-radius: 60px 1px 60px 1px;
+}
+
+.figure__leaf--middle {
+  margin: 0;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #abdcff;
+  border: 0.3rem #003db6 solid;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=figure.css.map */

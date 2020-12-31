@@ -1,0 +1,94 @@
+/* Variables */
+
+// matching colors
+$primaryColor : rgb(74,103,233);
+$primaryTextColor : rgb(255,255,255); // 4.7
+
+$secondaryColor : rgb(232,123,72);
+$textOnSecondaryColor : rgb(0,0,0); // 7.3
+
+// matching color on white background
+
+$textColorWhiteBg : rgb(41,56,69); // 12.0
+
+// matching dark colors
+$darkColor1 : rgb(0,61,182);
+$darkColor2 : rgb(177,77,28);
+// use textOnPrimaryColor for dark colors, scores : 8.9, 5.3
+
+// matching light colors
+$lightColor1 : rgb(133,148,255);
+$lightColor2 : rgb(255,171,117);
+// use textOnSecondaryColor for light colors, scores : 7.6, 11.3
+
+
+// matching colors on white text
+$iconLightColor1 : rgb(30,23,203); // 10.2
+$iconLightColor2 : rgb(35,7,171); // 12.4
+
+$iconLightColor3 : rgb(79,49,0); // 11.8
+$iconLightColor4 : rgb(100,9,39); // 13.0
+$iconLightColor5 : rgb(126,5,17); // 10.9
+
+$iconLightColor6 : rgb(57,5,177); // 11.4
+$iconLightColor7: rgb(77,1,142); // 12.2
+$iconLightColor8 : rgb(129,18,180); // 7.8
+
+$iconLightColor9 : rgb(52,7,12); // 17.7
+$iconLightColor10 : rgb(68,17,12); // 15.7
+$iconLightColor11 : rgb(166,7,84); // 7.5
+$iconLightColor12 : rgb(184,18,13); // 6.7
+
+$iconLightColor13 : rgb(25,20,59); // 17.4
+$iconLightColor14 : rgb(27,11,36); // 18.7
+
+$iconLightColor15 : rgb(19,58,60); // 12.3
+$iconLightColor16 : rgb(22,73,29); // 10.4
+$iconLightColor17 : rgb(53,106,46); // 6.4
+
+
+// matching colors on black text
+$iconDarkColor1 : rgb(60,219,24); // 11.3
+$iconDarkColor2 : rgb(146,216,67); // 12.1
+$iconDarkColor3 : rgb(176,250,103); // 16.7
+$iconDarkColor4 : rgb(196,246,173); // 17.1
+$iconDarkColor5 : rgb(202,243,123); // 16.6
+
+$iconDarkColor6 : rgb(234,215,237); // 15.4
+$iconDarkColor7 : rgb(240,196,192); // 13.3
+$iconDarkColor8 : rgb(255,174,227); // 12.4
+$iconDarkColor9 : rgb(245,238,229); // 18.2
+$iconDarkColor10 : rgb(243,225,215); // 16.5
+
+$iconDarkColor11 : rgb(134,183,246); // 10.1
+$iconDarkColor12 : rgb(171,220,255); // 14.4
+$iconDarkColor13 : rgb(153,251,242); // 17.4
+$iconDarkColor14 : rgb(97,189,238); // 10.0
+
+$iconDarkColor15 : rgb(251,207,95); // 14.1
+$iconDarkColor16 : rgb(251,246,160); // 18.7
+$iconDarkColor17 : rgb(254,196,102); // 13.3
+
+
+/* End Variables */
+
+
+
+
+/* Mixins */
+
+@mixin leaf() {
+    margin: 0;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+};
+
+@mixin primaryBorder() {
+    border: 0.3rem $primaryColor solid;
+};
+
+@mixin secondaryBorder() {
+    border: 0.3rem $secondaryColor solid;
+};
