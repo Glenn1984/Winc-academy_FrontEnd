@@ -1,0 +1,58 @@
+@import "./constants";
+
+.figure {
+    @include primaryBorder;
+    margin: 1rem;
+    border: 0.3rem $darkColor2 solid;
+    background-color: $darkColor1;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: relative;
+    transition: width 2s, height 2s, transform 2s;
+    &:hover {
+        width: 10rem;
+        height: 10rem;
+        transform: rotate(270deg);
+    };
+    &__leaf--top {
+        @include leaf;
+        @include secondaryBorder;
+        background-color: $lightColor1;
+        top: 30%;
+        left: 30%;
+        border-radius: 1px 60px 1px 60px;
+    };
+    &__leaf--right {
+        @include leaf;
+        @include primaryBorder;
+        background-color: $lightColor2;
+        top: 30%;
+        left: 70%;
+        border-radius: 60px 1px 60px 1px;
+    };
+    &__leaf--bottom {
+        @include leaf;
+        @include secondaryBorder;
+        background-color: $lightColor1;
+        top: 70%;
+        left: 70%;
+        border-radius: 1px 60px 1px 60px;
+    };
+    &__leaf--left {
+        @include leaf;
+        @include primaryBorder;
+        top: 70%;
+        left: 30%;
+        background-color: $lightColor2;
+        border-radius: 60px 1px 60px 1px;
+    };
+    &__leaf--middle {
+        @include leaf;
+        top: 50%;
+        left: 50%;
+        background-color: $iconDarkColor12;
+        border: 0.3rem $darkColor1 solid;
+        border-radius: 50px;
+    };
+};

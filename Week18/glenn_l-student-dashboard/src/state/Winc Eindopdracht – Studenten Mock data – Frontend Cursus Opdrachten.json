@@ -1,0 +1,3382 @@
+[
+    {
+      "Name": "Evelyn",
+      "Exercise": "SCRUM",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D1-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D2-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D2-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D2-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D2-5",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D3-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D3-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D3-4",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D3-5",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 5,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D4-1",
+      "Difficulty": 4,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D1-1",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D1-2",
+      "Difficulty": 2,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D2-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D2-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D3-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D3-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D3-3",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D4-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D4-3",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D1-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D1-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D1-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D1-4",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D2-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D2-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D2-3",
+      "Difficulty": 3,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D3-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D3-2",
+      "Difficulty": 4,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D3-3",
+      "Difficulty": 3,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D3-4",
+      "Difficulty": 4,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D4-1",
+      "Difficulty": 5,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D4-2",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 2,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D2-1",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D2-2",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D2-3",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D2-4",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3-1",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3-3",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3-4",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3-5",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 1,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W5D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W6D1-1",
+      "Difficulty": 5,
+      "Amusing": 5
+    },
+    {
+      "Name": "Evelyn",
+      "Exercise": "W6D2-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Evelyn",
+      "Lastname": "Tullett",
+      "Photo": "../photos/photo4.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 5,
+      "Amusing": 5
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "SCRUM",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D1-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D2-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D2-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D2-3",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D2-4",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D2-5",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D3-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D3-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D3-4",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D3-5",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D4-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D1-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D1-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D2-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D2-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D2-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D3-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D3-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D3-3",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D4-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D4-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D1-1",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D1-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D1-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D1-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D2-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D2-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D2-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D3-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D3-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D3-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D3-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D4-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D4-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D2-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D2-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D2-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D2-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3-5",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W5D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W6D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Aranka",
+      "Exercise": "W6D2-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Aranka",
+      "Lastname": "Vallance",
+      "Photo": "../photos/photo1.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "SCRUM",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D1-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D2-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D2-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D2-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D2-5",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D3-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D3-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D3-4",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D3-5",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D1-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D1-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D2-1",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D2-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D2-3",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D3-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D3-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D3-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D4-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D4-2",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D4-3",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D1-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D1-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D1-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D1-4",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D2-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D2-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D2-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D3-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D3-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D3-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D3-4",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D4-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D2-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D2-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D2-4",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3-4",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3-5",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W5D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W6D1-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Floris",
+      "Exercise": "W6D2-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Floris",
+      "Lastname": "Proven",
+      "Photo": "../photos/photo2.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "SCRUM",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D1-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D2-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D2-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D2-3",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D2-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D2-5",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D3-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D3-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D3-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D3-5",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D4-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D1-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D1-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D2-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D2-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D2-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D3-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D3-2",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D3-3",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D4-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D4-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D4-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D1-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D1-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D1-4",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D2-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D2-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D2-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D3-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D3-2",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D3-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D3-4",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D4-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D2-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D2-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D2-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D2-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3-5",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W5D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W6D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Hector",
+      "Exercise": "W6D2-1",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Hector",
+      "Lastname": "Gregson",
+      "Photo": "../photos/photo3.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "SCRUM",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D1-1",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D2-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D2-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D2-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D2-4",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D2-5",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D3-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D3-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D3-4",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D3-5",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D4-1",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D1-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D1-2",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D2-1",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D2-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D2-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D3-1",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D3-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D3-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D4-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D4-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D1-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D1-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D1-4",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D2-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D2-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D2-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D3-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D3-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D3-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D3-4",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D4-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D4-2",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D2-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D2-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D2-4",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3-4",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3-5",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W5D4-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W6D1-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Martina",
+      "Exercise": "W6D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Martina",
+      "Lastname": "Farraway",
+      "Photo": "../photos/photo4.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "SCRUM",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D1-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D2-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D2-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D2-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D2-5",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D3-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D3-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D3-4",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D3-5",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D1-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D2-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D2-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D2-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D3-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D3-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D3-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D4-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D4-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D1-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D1-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D1-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D1-4",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D2-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D2-3",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D3-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D3-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D3-3",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D3-4",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D4-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D4-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D2-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D2-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D2-3",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D2-4",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3-4",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3-5",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W5D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W6D1-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Maurits",
+      "Exercise": "W6D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Maurits",
+      "Lastname": "Crocetto",
+      "Photo": "../photos/photo2.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "SCRUM",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D1-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D2-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D2-3",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D2-4",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D2-5",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D3-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D3-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D3-4",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D3-5",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D4-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D1-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D1-2",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D2-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D2-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D2-3",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D3-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D3-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D3-3",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D4-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D4-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D4-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D1-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D1-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D1-4",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D2-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D2-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D2-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D3-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D3-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D3-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D3-4",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D4-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D4-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D2-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D2-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D2-3",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D2-4",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3-4",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3-5",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W5D4-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W6D1-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Exercise": "W6D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Rahima",
+      "Lastname": "Watford",
+      "Photo": "../photos/photo4.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "SCRUM",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D1-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D2-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D2-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D2-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D2-5",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D3-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D3-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D3-4",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D3-5",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D4-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D1-1",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D1-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D2-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D2-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D2-3",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D3-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D3-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D3-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D4-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D4-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D1-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D1-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D1-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D1-4",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D2-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D2-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D2-3",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D3-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D3-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D3-3",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D3-4",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D4-1",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D4-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D2-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D2-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D2-4",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3-4",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3-5",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W5D4-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W6D1-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Sandra",
+      "Exercise": "W6D2-1",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Sandra",
+      "Lastname": "Gladman",
+      "Photo": "../photos/photo1.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "SCRUM",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D1-1",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D2-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D2-4",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D2-5",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D3-1",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D3-2",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D3-4",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D3-5",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D4-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D1-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D1-2",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D2-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D2-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D3-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D3-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D3-3",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D4-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D4-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D4-3",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D1-1",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D1-2",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D1-3",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D1-4",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D2-1",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D2-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D2-3",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D3-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D3-2",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D3-3",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D3-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D4-2",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D2-1",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D2-2",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D2-3",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D2-4",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3-3",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3-5",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W5D4-1",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W6D1-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Exercise": "W6D2-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Wietske",
+      "Lastname": "De La Coste",
+      "Photo": "../photos/photo1.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "SCRUM",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D1-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D2-1",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D2-2",
+      "Difficulty": 1,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D2-3",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D2-4",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D2-5",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D3-1",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D3-2",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D3-4",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D3-5",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D4-1",
+      "Difficulty": 4,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W1D5 - Project - Galgje",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D1-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D1-2",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D2-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D2-2",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D2-3",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D3-1",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D3-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D3-3",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D4-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D4-2",
+      "Difficulty": 4,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D4-3",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D1-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D1-2",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D1-3",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D1-4",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D2-1",
+      "Difficulty": 1,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D2-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D2-3",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D3-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D3-2",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D3-3",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D3-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D4-1",
+      "Difficulty": 2,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D4-2",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W3D5 - Project - Todo-List",
+      "Difficulty": 3,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D2-1",
+      "Difficulty": 2,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D2-2",
+      "Difficulty": 3,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D2-3",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D2-4",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3-1",
+      "Difficulty": 3,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3-2",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3-3",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3-4",
+      "Difficulty": 3,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3-5",
+      "Difficulty": 2,
+      "Amusing": 3
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Difficulty": 4,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W5D4-1",
+      "Difficulty": 2,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Difficulty": 1,
+      "Amusing": 2
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W6D1-1",
+      "Difficulty": 4,
+      "Amusing": 4
+    },
+    {
+      "Name": "Storm",
+      "Exercise": "W6D2-1",
+      "Difficulty": 1,
+      "Amusing": 1
+    },
+    {
+      "Name": "Storm",
+      "Lastname": "Shepstone",
+      "Photo": "../photos/photo3.jpg",
+      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Difficulty": 3,
+      "Amusing": 3
+    }
+]

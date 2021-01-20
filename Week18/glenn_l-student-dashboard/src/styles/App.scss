@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import "./constants";
+
+body {
+    background-color: rgba(255,171,117, 0.6);
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+};
+
+#root {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+        "header header"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 2fr 8fr 2fr;
+    column-gap: 1.8rem;
+    .header {
+        grid-area: header;
+        @include secondaryBorder;
+        background-color: $primaryColor;
+        text-align: center;
+        border-radius: 1.563rem 6.25rem 0rem 0rem / 1.563rem 6.25rem 0rem 0rem;
+        height: 18rem;
+        &__wrapper {
+            @include secondaryBorder;
+            margin: 1.5rem 2rem;
+            border-radius: 1.563rem 6.25rem 6.25rem 1.563rem / 1.563rem 6.25rem 6.25rem 1.563rem;
+            display: flex;
+            justify-content: flex-start;
+            background-color: $lightColor1;
+            opacity: 0.9;
+            position: relative;
+        };
+        &__title {
+            color: $primaryTextColor;
+            font-size: 2.4rem;
+            letter-spacing: 0.1rem;
+            line-height: 4rem;
+            position: absolute;
+            top: 35%;
+            left: 40%;
+            transform: translateY(-50%);
+            vertical-align: middle;
+        };
+    };
+
+    .navbar {
+        grid-area: nav;
+        @include secondaryBorder;
+        background-color: $primaryColor;
+        border-top-style: none;
+        border-bottom-style: none;
+        text-align: center;
+        &__wrapper {
+            @include secondaryBorder;
+            margin: 1.3rem;
+            border-radius: 6.25rem 50rem 35rem 6.25rem / 6.25rem 50rem 35rem 6.25rem;
+            background-color: $lightColor1;
+            opacity: 0.9;
+        };
+        &__title {
+            // margin: 1.5em 1rem 1.3rem 0rem;
+            color: $secondaryTextColor;
+            font-size: 1.4rem;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+            width: 10rem;
+        };
+        &__list {
+            list-style-type: none;
+            padding-left: 1.5rem;
+        };
+        &__listitem {
+            text-align: left;
+        };
+        &__link {
+            color: $primaryTextColor;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+            text-decoration: none;
+            &:hover {
+                color: $darkColor1;
+                font-size: 1.4rem;
+                font-weight: 400;
+            };
+            &--all {
+                color: $darkColor1;
+                font-size: 1.2rem;
+                font-weight: 600;
+                letter-spacing: 0.1rem;
+                line-height: 2rem;
+                text-decoration: none;
+                &:hover {
+                    color: $darkColor2;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                };
+            }
+        };
+    };
+
+    .main {
+        grid-area: main;
+        @include secondaryBorder;
+        background-color: $primaryColor;
+        border-top-style: none;
+        border-bottom-style: none;
+        &__wrapper {
+            margin: 0.5rem;
+        };
+        &__styling {
+            margin: 0 auto;
+            border-radius: 1.563rem;
+            background: linear-gradient(45deg, rgb(161, 171, 248), $lightColor1, $darkColor1,$primaryColor, $lightColor1);
+            width: 97%;
+        };
+        &__studentchart {
+            @include secondaryBorder;
+            margin: 0 auto;
+            border-radius: 1.563rem;
+            background-color: rgba(255,255,255, 0.3);
+            color: $iconLightColor2;
+            height: 20rem;
+            width: 99%;
+            z-index: 1;
+        };
+        // &__chart {
+        //     @include secondaryBorder;
+        //     margin: 2rem auto;
+        //     border-radius: 1.563rem;
+        //     background-color: $lightColor1;
+        //     color: $iconLightColor2;
+        //     height: 10rem;
+        //     width: 20rem;
+        //     font-family: 'Inter', sans-serif;
+        // };
+        // &__verticalbar {
+        //     @include primaryBorder;
+        //     margin: 2rem auto;
+        //     background-color: $primaryColor;
+        //     border-radius: 1.563rem;
+        //     writing-mode: vertical-rl;
+        //     height: 20rem;
+        // };
+        // &__horizontalbar {
+        //     @include secondaryBorder;
+        //     margin: 2rem auto;
+        //     background-color: $secondaryColor;
+        //     border-radius: 1.563rem;
+        //     height: 0rem;
+        //     width: 45rem;
+        // };
+    };
+
+    .footer {
+        grid-area: footer;
+        @include secondaryBorder;
+        background-color: $primaryColor;
+        text-align: center;
+        border-radius: 0rem 0rem 1.563rem 6.25rem / 0rem 0rem 1.563rem 6.25rem;
+        &__wrapper {
+            @include secondaryBorder;
+            margin: 1.5rem 2rem;
+            border-radius: 6.25rem 1.563rem 1.563rem 6.25rem / 6.25rem 1.563rem 1.563rem 6.25rem;
+            display: flex;
+            justify-content: flex-start;
+            background-color: $lightColor1;
+            opacity: 0.9;
+            position: relative;
+        };
+        &__title {
+            color: $primaryTextColor;
+            font-size: 2.4rem;
+            letter-spacing: 0.1rem;
+            line-height: 4rem;
+            position: absolute;
+            top: 35%;
+            left: 40%;
+            transform: translateY(-50%);
+            vertical-align: middle;
+        };
+    };
+};
+

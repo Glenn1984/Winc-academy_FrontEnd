@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* Variables */
+/* End Variables */
+/* Mixins */
+:export {
+  primaryColor: #4a67e9;
+  primaryTextColor: white;
+  secondaryColor: #e87b48;
+  secondaryTextColor: black;
+  textColorWhiteBg: #293845;
+  lightColor1: #8594ff;
+  lightColor2: #ffab75;
+}
+
+body {
+  background-color: rgba(255, 171, 117, 0.6);
+  font-family: 'Inter', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100%;
+      grid-template-areas: "header header" "nav main" "footer footer";
+  -ms-grid-columns: 2fr 10fr;
+      grid-template-columns: 2fr 10fr;
+  -ms-grid-rows: 2fr 8fr 2fr;
+      grid-template-rows: 2fr 8fr 2fr;
+  -webkit-column-gap: 1.8rem;
+          column-gap: 1.8rem;
+}
+
+#root .header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  border: 0.3rem #e87b48 solid;
+  background-color: #4a67e9;
+  text-align: center;
+  border-radius: 1.563rem 6.25rem 0rem 0rem / 1.563rem 6.25rem 0rem 0rem;
+  height: 18rem;
+}
+
+#root .header__wrapper {
+  border: 0.3rem #e87b48 solid;
+  margin: 1.5rem 2rem;
+  border-radius: 1.563rem 6.25rem 6.25rem 1.563rem / 1.563rem 6.25rem 6.25rem 1.563rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #8594ff;
+  opacity: 0.9;
+  position: relative;
+}
+
+#root .header__title {
+  color: white;
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  vertical-align: middle;
+}
+
+#root .navbar {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: nav;
+  border: 0.3rem #e87b48 solid;
+  background-color: #4a67e9;
+  border-top-style: none;
+  border-bottom-style: none;
+  text-align: center;
+}
+
+#root .navbar__wrapper {
+  border: 0.3rem #e87b48 solid;
+  margin: 1.3rem;
+  border-radius: 6.25rem 50rem 35rem 6.25rem / 6.25rem 50rem 35rem 6.25rem;
+  background-color: #8594ff;
+  opacity: 0.9;
+}
+
+#root .navbar__title {
+  color: black;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  width: 10rem;
+}
+
+#root .navbar__list {
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+#root .navbar__listitem {
+  text-align: left;
+}
+
+#root .navbar__link {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  text-decoration: none;
+}
+
+#root .navbar__link:hover {
+  color: #003db6;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#root .navbar__link--all {
+  color: #003db6;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  text-decoration: none;
+}
+
+#root .navbar__link--all:hover {
+  color: #b14d1c;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#root .main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: main;
+  border: 0.3rem #e87b48 solid;
+  background-color: #4a67e9;
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+#root .main__wrapper {
+  margin: 0.5rem;
+}
+
+#root .main__styling {
+  margin: 0 auto;
+  border-radius: 1.563rem;
+  background: linear-gradient(45deg, #a1abf8, #8594ff, #003db6, #4a67e9, #8594ff);
+  width: 97%;
+}
+
+#root .main__studentchart {
+  border: 0.3rem #e87b48 solid;
+  margin: 0 auto;
+  border-radius: 1.563rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #2307ab;
+  height: 20rem;
+  width: 99%;
+  z-index: 1;
+}
+
+#root .footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  border: 0.3rem #e87b48 solid;
+  background-color: #4a67e9;
+  text-align: center;
+  border-radius: 0rem 0rem 1.563rem 6.25rem / 0rem 0rem 1.563rem 6.25rem;
+}
+
+#root .footer__wrapper {
+  border: 0.3rem #e87b48 solid;
+  margin: 1.5rem 2rem;
+  border-radius: 6.25rem 1.563rem 1.563rem 6.25rem / 6.25rem 1.563rem 1.563rem 6.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #8594ff;
+  opacity: 0.9;
+  position: relative;
+}
+
+#root .footer__title {
+  color: white;
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  vertical-align: middle;
+}
+/*# sourceMappingURL=App.css.map */
