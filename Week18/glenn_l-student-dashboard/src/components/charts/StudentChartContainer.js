@@ -1,10 +1,8 @@
 import React from "react";
-import StudentChart from "./StudentChart";
+import StudentBarChart from "./StudentBarChart";
+import StudentLineChart from "./StudentLineChart";
 
 const StudentChartContainer = (props) => {
-    console.log("StudentChartContainer ", props);
-    // console.log(props.match.url); //* namen url
-    // props.match.url === "/" ? props.dataState : props.dataState.filter(student => console.log(student))
     let matchingUrl;
 
     if (props.match.url === "/") {
@@ -12,17 +10,60 @@ const StudentChartContainer = (props) => {
     } else {
         matchingUrl = props.dataState.filter(({ Name }) => Name === props.match.params.name);
     };
-    // console.log("matching url ", matchingUrl);
 
-    const listOfUniqueExercises = [...new Set(matchingUrl.map(student => student.Exercise))]
-    console.log("list of unique exercises ", listOfUniqueExercises);
+    const listOfUniqueExercises = [...new Set(matchingUrl.map(student => student.Exercise))];
+        
+    
+    const getAverageScores = (exercise, category) => {
 
-    console.log(props.sortState.slicing.weeks);
+        const filteredByExercise = matchingUrl
+            .filter(student => student.Exercise === exercise);
+            
+            const averageScores = filteredByExercise
+                .map(student => student[category])
+                .reduce((acc, cur) => acc + cur) / filteredByExercise.length;
+            
+            return averageScores;
+        };
+    
+        const hasExercisesWithAverageScores = listOfUniqueExercises.map(exercise => {
+            return {
+                Exercise: exercise,
+                Difficulty: getAverageScores(exercise, "Difficulty"),
+                Amusing: getAverageScores(exercise, "Amusing")
+            };
+        });
+    
+    // console.log(props.sortState.slicing.weeks);
+    // if (!props.sortState.slicing.weeks.week1) {
+    //     listOfUniqueExercises = listOfUniqueExercises.filter(Exercise => !Exercise.includes("W1"));
+    // };
 
+    const getSortOrder = (hasExercisesWithAverageScores, range, order) => {
+        order === "ascending" ?
+            hasExercisesWithAverageScores.sort((a, b) => (a[range] > b[range] ? 1 : -1)) :
+            hasExercisesWithAverageScores.sort((a, b) => (a[range] < b[range] ? 1 : -1));
+    };
+
+    getSortOrder(hasExercisesWithAverageScores, props.sortState.sort.range, props.sortState.sort.order)
 
     return (
         <>
-            <StudentChart {...props}/>
+            <div className="main__styling">
+                <div className="main__studentbarchart">
+                    <StudentBarChart
+                        AverageScores={hasExercisesWithAverageScores}
+                    />
+                </div>
+            </div>
+                <div className="main__horizontalbar"></div>
+            <div className="main__styling">
+                <div className="main__studentlinechart">
+                    <StudentLineChart
+                        AverageScores={hasExercisesWithAverageScores}
+                    />
+                </div>
+            </div>
         </>
     );
 };

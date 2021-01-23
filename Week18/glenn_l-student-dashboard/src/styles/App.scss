@@ -55,15 +55,17 @@ body {
         border-top-style: none;
         border-bottom-style: none;
         text-align: center;
+        display: flex;
+        flex-direction: column;
         &__wrapper {
             @include secondaryBorder;
             margin: 1.3rem;
-            border-radius: 6.25rem 50rem 35rem 6.25rem / 6.25rem 50rem 35rem 6.25rem;
+            border-radius: 6.25rem 35rem 30rem 6.25rem / 6.25rem 30rem 30rem 6.25rem;
             background-color: $lightColor1;
             opacity: 0.9;
         };
         &__title {
-            // margin: 1.5em 1rem 1.3rem 0rem;
+            margin: 1.5em 1rem 1.3rem 0rem;
             color: $secondaryTextColor;
             font-size: 1.4rem;
             letter-spacing: 0.1rem;
@@ -100,7 +102,38 @@ body {
                     font-size: 1.4rem;
                     font-weight: bold;
                 };
-            }
+            };
+        };
+        &__sortdata {
+            @include secondaryBorder;
+            margin: 1.3rem;
+            border-radius: 50rem 50rem 0rem 0rem / 50rem 50rem 0rem 0rem;
+            background-color: $lightColor1;
+            opacity: 0.9;
+        };
+        &__select {
+            margin-bottom: 1.3rem;
+            border: 1px $darkColor1 solid;
+            border-radius: 10rem;
+            font: 500 0.833rem Inter, sans-serif;
+            background-color: $lightColor1;
+            color: $secondaryTextColor;
+            &:hover {
+                background-color: $darkColor3;
+            };
+        };
+        &__group {
+            background-color: $secondaryColor;
+            color: $secondaryTextColor;
+            font-weight: 500;
+        };
+        &__option {
+            background-color: $lightColor1;
+            color: $secondaryTextColor;
+            &:checked {
+                background-color: $darkColor3;
+                color: $primaryTextColor;
+            };
         };
     };
 
@@ -119,7 +152,7 @@ body {
             background: linear-gradient(45deg, rgb(161, 171, 248), $lightColor1, $darkColor1,$primaryColor, $lightColor1);
             width: 97%;
         };
-        &__studentchart {
+        &__studentbarchart {
             @include secondaryBorder;
             margin: 0 auto;
             border-radius: 1.563rem;
@@ -128,6 +161,22 @@ body {
             height: 20rem;
             width: 99%;
             z-index: 1;
+        };
+        &__horizontalbar {
+            @include secondaryBorder;
+            margin: 2rem auto;
+            background-color: $secondaryColor;
+            border-radius: 1.563rem;
+            width: 90%;
+        };
+        &__studentlinechart {
+            @include secondaryBorder;
+            margin: 2rem auto;
+            border-radius: 1.563rem;
+            background-color: rgba(255,255,255, 0.3);
+            color: $iconLightColor2;
+            height: 20rem;
+            width: 99%;
         };
         // &__chart {
         //     @include secondaryBorder;
@@ -139,22 +188,14 @@ body {
         //     width: 20rem;
         //     font-family: 'Inter', sans-serif;
         // };
-        // &__verticalbar {
-        //     @include primaryBorder;
-        //     margin: 2rem auto;
-        //     background-color: $primaryColor;
-        //     border-radius: 1.563rem;
-        //     writing-mode: vertical-rl;
-        //     height: 20rem;
-        // };
-        // &__horizontalbar {
-        //     @include secondaryBorder;
-        //     margin: 2rem auto;
-        //     background-color: $secondaryColor;
-        //     border-radius: 1.563rem;
-        //     height: 0rem;
-        //     width: 45rem;
-        // };
+        &__verticalbar {
+            @include secondaryBorder;
+            margin: 2.5rem auto;
+            background-color: $secondaryColor;
+            border-radius: 1.563rem;
+            writing-mode: vertical-rl;
+            height: 20rem;
+        };
     };
 
     .footer {

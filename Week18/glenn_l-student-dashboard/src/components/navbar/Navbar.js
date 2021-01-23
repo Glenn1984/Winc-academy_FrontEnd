@@ -1,7 +1,20 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { sortData } from "../../actions/index";
 import NavbarContainer from "./NavbarContainer";
+import NavbarSortContainer from "./NavbarSortContainer";
 
 const Navbar = (props) => {
+    const dispatch = useDispatch();
+
+    const hasSortOrder = (range, order) => {
+        const sortOrder = {
+            range,
+            order
+        };
+        dispatch(sortData(sortOrder));
+    };
+
     return (
         <nav className="navbar">
             <div className="navbar__wrapper">
@@ -9,6 +22,12 @@ const Navbar = (props) => {
                 <ul className="navbar__list">
                     <NavbarContainer {...props}/>
                 </ul>
+            </div>
+            <div className="navbar__sortdata">
+                <h3 className="navbar__title">Sort by:</h3>
+                <NavbarSortContainer
+                    sortOrder={hasSortOrder}
+                />
             </div>
         </nav>
     );

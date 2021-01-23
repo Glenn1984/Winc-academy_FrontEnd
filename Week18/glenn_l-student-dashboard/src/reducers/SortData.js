@@ -6,7 +6,8 @@ const sortDataReducer = (state = defaultState, action) => {
         case SORT_DATA:
             return {
                 ...state,
-            }
+                sort: action.payload,
+            };
         default:
             return state;
     };

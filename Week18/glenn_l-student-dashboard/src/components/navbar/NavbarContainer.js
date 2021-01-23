@@ -36,8 +36,8 @@ const NavbarContainer = (props) => {
                     All Students
                 </Link>
             </li>
-    )
-}
+        );
+    };
 
     return (
         <>

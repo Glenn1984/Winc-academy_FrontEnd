@@ -1,7 +1,7 @@
 const defaultState = {
     sort: {
         range: "Exercise",
-        order: "asc",
+        order: "ascending",
     },
     slicing: {
         Difficulty: true,

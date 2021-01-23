@@ -5,12 +5,10 @@ import {
     VictoryChart,
     VictoryAxis,
     VictoryZoomContainer,
-    VictoryLine,
     VictoryLegend,
 } from "victory";
 
-const StudentChart = (props) => {
-    // console.log("Studentchart props ", props);
+const StudentBarChart = (props) => {
     return (
         <>
             <VictoryChart
@@ -51,6 +49,9 @@ const StudentChart = (props) => {
                                 },
                             }
                         }
+                        data={props.AverageScores}
+                        x="Exercise"
+                        y="Difficulty"
                     />
                     <VictoryBar
                         barWidth={7}
@@ -61,6 +62,9 @@ const StudentChart = (props) => {
                                 },
                             }
                         }
+                        data={props.AverageScores}
+                        x="Exercise"
+                        y="Amusing"
                     />
                 </VictoryGroup>
                 <VictoryAxis
@@ -82,9 +86,8 @@ const StudentChart = (props) => {
                     height={400}
                 />
             </VictoryChart>
-
         </>
     );
 };
 
-export default StudentChart;
+export default StudentBarChart;
