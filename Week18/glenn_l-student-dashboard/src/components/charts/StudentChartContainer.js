@@ -33,11 +33,6 @@ const StudentChartContainer = (props) => {
                 Amusing: getAverageScores(exercise, "Amusing")
             };
         });
-    
-    // console.log(props.sortState.slicing.weeks);
-    // if (!props.sortState.slicing.weeks.week1) {
-    //     listOfUniqueExercises = listOfUniqueExercises.filter(Exercise => !Exercise.includes("W1"));
-    // };
 
     const getSortOrder = (hasExercisesWithAverageScores, range, order) => {
         order === "ascending" ?
@@ -49,7 +44,7 @@ const StudentChartContainer = (props) => {
 
     return (
         <>
-            <div className="main__styling">
+            <div className="main__chartstyle">
                 <div className="main__studentbarchart">
                     <StudentBarChart
                         AverageScores={hasExercisesWithAverageScores}
@@ -57,7 +52,7 @@ const StudentChartContainer = (props) => {
                 </div>
             </div>
                 <div className="main__horizontalbar"></div>
-            <div className="main__styling">
+            <div className="main__chartstyle">
                 <div className="main__studentlinechart">
                     <StudentLineChart
                         AverageScores={hasExercisesWithAverageScores}

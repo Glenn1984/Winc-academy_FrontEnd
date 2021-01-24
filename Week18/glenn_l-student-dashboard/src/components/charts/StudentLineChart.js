@@ -6,13 +6,29 @@ import {
     VictoryLine,
     VictoryLegend,
 } from "victory";
+import theme from "../../styles/theme";
+import animation from "../../styles/animation";
 
 const StudentLineChart = (props) => {
+    const primaryColor = "rgb(0, 61, 182)";
+    const secondaryColor = "rgb(177,77,28)";
+    const styleDifficulty = {
+        data: {
+            stroke: primaryColor,
+        },
+    };
+
+    const styleAmusing = {
+        data: {
+            stroke: secondaryColor,
+        },
+    };
     return (
         <>
             <VictoryChart
                 domainPadding={{ x: 20 }}
                 standalone={true}
+                theme={theme}
                 containerComponent={
                     <VictoryZoomContainer
                         zoomDimension="x"
@@ -25,37 +41,27 @@ const StudentLineChart = (props) => {
                         {
                             name: "Difficulty",
                             symbol: {
-                                fill: "rgb(0,61,182)",
+                                fill: primaryColor,
                             }
                         },
                         {
                             name: "Amusing",
                             symbol: {
-                                fill: "rgb(177,77,28)",
+                                fill: secondaryColor,
                             }
                         },
                     ]}
                 />
                 <VictoryLine
-                    style={
-                        {
-                            data: {
-                                stroke: "rgb(0,61,182)",
-                            },
-                        }
-                    }
+                    style={styleDifficulty}
+                    animate={animation.difficulty}
                     data={props.AverageScores}
                     x="Exercise"
                     y="Difficulty"
                 />
                 <VictoryLine
-                    style={
-                        {
-                            data: {
-                                stroke: "rgb(177,77,28)",
-                            },
-                        }
-                    }
+                    style={styleAmusing}
+                    animate={animation.amusing}
                     data={props.AverageScores}
                     x="Exercise"
                     y="Amusing"
@@ -66,7 +72,7 @@ const StudentLineChart = (props) => {
                         {
                             tickLabels: {
                                 padding: 20,
-                                angle: -15,
+                                angle: -45,
                             },
                         }
                     }

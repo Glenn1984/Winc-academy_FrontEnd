@@ -7,13 +7,31 @@ import {
     VictoryZoomContainer,
     VictoryLegend,
 } from "victory";
+import theme from "../../styles/theme";
+import animation from "../../styles/animation";
+
 
 const StudentBarChart = (props) => {
+    const primaryColor = "rgb(0, 61, 182)";
+    const secondaryColor = "rgb(177,77,28)";
+    const styleDifficulty = {
+        data: {
+            fill: primaryColor,
+        },
+    };
+
+    const styleAmusing = {
+        data: {
+            fill: secondaryColor,
+        },
+    };
+    
     return (
         <>
             <VictoryChart
                 domainPadding={{ x: 20 }}
                 standalone={true}
+                theme={theme}
                 containerComponent={
                     <VictoryZoomContainer
                         zoomDimension="x"
@@ -26,42 +44,32 @@ const StudentBarChart = (props) => {
                         {
                             name: "Difficulty",
                             symbol: {
-                                fill: "rgb(0,61,182)",
+                                fill: primaryColor,
                             }
                         },
                         {
                             name: "Amusing",
                             symbol: {
-                                fill: "rgb(177,77,28)",
+                                fill: secondaryColor,
                             }
                         },
                     ]}
                 />
                 <VictoryGroup
-                    offset={8}
+                    offset={6}
                 >
                     <VictoryBar
                         barWidth={7}
-                        style={
-                            {
-                                data: {
-                                    fill: "rgb(0,61,182)",
-                                },
-                            }
-                        }
+                        style={styleDifficulty}
+                        animate={animation.difficulty}
                         data={props.AverageScores}
                         x="Exercise"
                         y="Difficulty"
                     />
                     <VictoryBar
                         barWidth={7}
-                        style={
-                            {
-                                data: {
-                                    fill: "rgb(177,77,28)",
-                                },
-                            }
-                        }
+                        style={styleAmusing}
+                        animate={animation.amusing}
                         data={props.AverageScores}
                         x="Exercise"
                         y="Amusing"
@@ -72,8 +80,8 @@ const StudentBarChart = (props) => {
                     style={
                         {
                             tickLabels: {
-                                padding: 20,
-                                angle: -45,
+                                padding: 35,
+                                angle: 45,
                             },
                         }
                     }

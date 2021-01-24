@@ -2,16 +2,6 @@
 /* Variables */
 /* End Variables */
 /* Mixins */
-:export {
-  primaryColor: #4a67e9;
-  primaryTextColor: white;
-  secondaryColor: #e87b48;
-  secondaryTextColor: black;
-  textColorWhiteBg: #293845;
-  lightColor1: #8594ff;
-  lightColor2: #ffab75;
-}
-
 body {
   background-color: rgba(255, 171, 117, 0.6);
   font-family: 'Inter', sans-serif;
@@ -42,7 +32,6 @@ body {
   background-color: #4a67e9;
   text-align: center;
   border-radius: 1.563rem 6.25rem 0rem 0rem / 1.563rem 6.25rem 0rem 0rem;
-  height: 18rem;
 }
 
 #root .header__wrapper {
@@ -91,7 +80,7 @@ body {
           flex-direction: column;
 }
 
-#root .navbar__wrapper {
+#root .navbar__namelist {
   border: 0.3rem #e87b48 solid;
   margin: 1.3rem;
   border-radius: 6.25rem 35rem 30rem 6.25rem / 6.25rem 30rem 30rem 6.25rem;
@@ -146,7 +135,7 @@ body {
   font-weight: bold;
 }
 
-#root .navbar__sortdata {
+#root .navbar__sortby {
   border: 0.3rem #e87b48 solid;
   margin: 1.3rem;
   border-radius: 50rem 50rem 0rem 0rem / 50rem 50rem 0rem 0rem;
@@ -197,10 +186,10 @@ body {
   margin: 0.5rem;
 }
 
-#root .main__styling {
+#root .main__chartstyle {
   margin: 0 auto;
   border-radius: 1.563rem;
-  background: linear-gradient(45deg, #a1abf8, #8594ff, #003db6, #4a67e9, #8594ff);
+  background: linear-gradient(45deg, #8594ff, #003db6, #4a67e9, #003db6, #4a67e9, #a1abf8);
   width: 97%;
 }
 
@@ -209,10 +198,9 @@ body {
   margin: 0 auto;
   border-radius: 1.563rem;
   background-color: rgba(255, 255, 255, 0.3);
-  color: #2307ab;
+  color: #d7dde8;
   height: 20rem;
   width: 99%;
-  z-index: 1;
 }
 
 #root .main__horizontalbar {
@@ -228,7 +216,7 @@ body {
   margin: 2rem auto;
   border-radius: 1.563rem;
   background-color: rgba(255, 255, 255, 0.3);
-  color: #2307ab;
+  color: #d7dde8;
   height: 20rem;
   width: 99%;
 }
@@ -242,6 +230,68 @@ body {
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
   height: 20rem;
+}
+
+#root .main__container {
+  margin: 2rem auto;
+  border-radius: 1.563rem;
+  background: linear-gradient(45deg, #8594ff, #003db6, #4a67e9, #003db6, #4a67e9, #a1abf8);
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root .main__card {
+  border: 0.3rem #e87b48 solid;
+  border-radius: 1.563rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 98%;
+}
+
+#root .main__img {
+  margin: 0.5rem auto;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+#root .main__cardlist {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin: 0rem auto 1rem auto;
+}
+
+#root .main__listtitle {
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 0.5rem 0rem;
+  text-align: center;
+  color: #003db6;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+
+#root .main__listitem {
+  color: black;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
 }
 
 #root .footer {

@@ -24,7 +24,6 @@ body {
         background-color: $primaryColor;
         text-align: center;
         border-radius: 1.563rem 6.25rem 0rem 0rem / 1.563rem 6.25rem 0rem 0rem;
-        height: 18rem;
         &__wrapper {
             @include secondaryBorder;
             margin: 1.5rem 2rem;
@@ -57,7 +56,7 @@ body {
         text-align: center;
         display: flex;
         flex-direction: column;
-        &__wrapper {
+        &__namelist {
             @include secondaryBorder;
             margin: 1.3rem;
             border-radius: 6.25rem 35rem 30rem 6.25rem / 6.25rem 30rem 30rem 6.25rem;
@@ -104,7 +103,7 @@ body {
                 };
             };
         };
-        &__sortdata {
+        &__sortby {
             @include secondaryBorder;
             margin: 1.3rem;
             border-radius: 50rem 50rem 0rem 0rem / 50rem 50rem 0rem 0rem;
@@ -146,10 +145,10 @@ body {
         &__wrapper {
             margin: 0.5rem;
         };
-        &__styling {
+        &__chartstyle {
             margin: 0 auto;
             border-radius: 1.563rem;
-            background: linear-gradient(45deg, rgb(161, 171, 248), $lightColor1, $darkColor1,$primaryColor, $lightColor1);
+            background: linear-gradient(45deg, $lightColor1, $darkColor1, $primaryColor, $darkColor1, $primaryColor, $lightColor3);
             width: 97%;
         };
         &__studentbarchart {
@@ -157,10 +156,9 @@ body {
             margin: 0 auto;
             border-radius: 1.563rem;
             background-color: rgba(255,255,255, 0.3);
-            color: $iconLightColor2;
+            color: $lightColor4;
             height: 20rem;
             width: 99%;
-            z-index: 1;
         };
         &__horizontalbar {
             @include secondaryBorder;
@@ -174,20 +172,10 @@ body {
             margin: 2rem auto;
             border-radius: 1.563rem;
             background-color: rgba(255,255,255, 0.3);
-            color: $iconLightColor2;
+            color: $lightColor4;
             height: 20rem;
             width: 99%;
         };
-        // &__chart {
-        //     @include secondaryBorder;
-        //     margin: 2rem auto;
-        //     border-radius: 1.563rem;
-        //     background-color: $lightColor1;
-        //     color: $iconLightColor2;
-        //     height: 10rem;
-        //     width: 20rem;
-        //     font-family: 'Inter', sans-serif;
-        // };
         &__verticalbar {
             @include secondaryBorder;
             margin: 2.5rem auto;
@@ -195,6 +183,54 @@ body {
             border-radius: 1.563rem;
             writing-mode: vertical-rl;
             height: 20rem;
+        };
+        &__container {
+            margin: 2rem auto;
+            border-radius: 1.563rem;
+            background: linear-gradient(45deg, $lightColor1, $darkColor1, $primaryColor, $darkColor1, $primaryColor, $lightColor3);
+            width: 20rem;
+            display: flex;
+
+        };
+        &__card {
+            @include secondaryBorder;
+            border-radius: 1.563rem;
+            background-color: rgba(255,255,255, 0.3);
+            color: $secondaryTextColor;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            width: 98%;
+        };
+        &__img {
+            margin: 0.5rem auto;
+            border-radius: 50%;
+            width: 10rem;
+            height: 10rem;
+        };
+        &__cardlist {
+            list-style-type: none;
+            padding-left: 1rem;
+            margin: 0rem auto 1rem auto;
+        };
+        &__listtitle {
+            margin: 0rem 0rem 1rem 0rem;
+            padding: 0.5rem 0rem;
+            text-align: center;
+            color: $darkColor1;
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            line-height: 2rem;
+        };
+        &__listitem {
+            color: $secondaryTextColor;
+            text-align: left;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            line-height: 1.5rem;
         };
     };
 
@@ -227,4 +263,3 @@ body {
         };
     };
 };
-

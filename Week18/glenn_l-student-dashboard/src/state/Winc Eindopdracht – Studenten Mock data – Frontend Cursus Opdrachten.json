@@ -67,7 +67,7 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 5,
       "Amusing": 5
     },
@@ -79,13 +79,13 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 3,
       "Amusing": 4
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 3,
       "Amusing": 3
     },
@@ -157,7 +157,7 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -241,7 +241,7 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 2,
       "Amusing": 5
     },
@@ -301,7 +301,7 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 1,
       "Amusing": 5
     },
@@ -313,7 +313,7 @@
     },
     {
       "Name": "Evelyn",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 4,
       "Amusing": 3
     },
@@ -333,7 +333,7 @@
       "Name": "Evelyn",
       "Lastname": "Tullett",
       "Photo": "../photos/photo4.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 5,
       "Amusing": 5
     },
@@ -405,7 +405,7 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 2,
       "Amusing": 3
     },
@@ -417,13 +417,13 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 4,
       "Amusing": 3
     },
     {
       "Name": "Aranka",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -495,7 +495,7 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -579,7 +579,7 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 1,
       "Amusing": 1
     },
@@ -639,7 +639,7 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 4,
       "Amusing": 4
     },
@@ -651,7 +651,7 @@
     },
     {
       "Name": "Aranka",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 3,
       "Amusing": 2
     },
@@ -671,7 +671,7 @@
       "Name": "Aranka",
       "Lastname": "Vallance",
       "Photo": "../photos/photo1.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -743,7 +743,7 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -755,13 +755,13 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 4,
       "Amusing": 3
     },
     {
       "Name": "Floris",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 4,
       "Amusing": 4
     },
@@ -833,7 +833,7 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -917,7 +917,7 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 4,
       "Amusing": 2
     },
@@ -977,7 +977,7 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -989,7 +989,7 @@
     },
     {
       "Name": "Floris",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -1009,7 +1009,7 @@
       "Name": "Floris",
       "Lastname": "Proven",
       "Photo": "../photos/photo2.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -1081,7 +1081,7 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -1093,13 +1093,13 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 1,
       "Amusing": 3
     },
     {
       "Name": "Hector",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -1171,7 +1171,7 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -1315,7 +1315,7 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -1327,7 +1327,7 @@
     },
     {
       "Name": "Hector",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -1347,7 +1347,7 @@
       "Name": "Hector",
       "Lastname": "Gregson",
       "Photo": "../photos/photo3.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -1419,7 +1419,7 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -1431,13 +1431,13 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 1,
       "Amusing": 3
     },
     {
       "Name": "Martina",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 1,
       "Amusing": 4
     },
@@ -1509,7 +1509,7 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -1593,7 +1593,7 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 2,
       "Amusing": 3
     },
@@ -1653,7 +1653,7 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -1665,7 +1665,7 @@
     },
     {
       "Name": "Martina",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 1,
       "Amusing": 1
     },
@@ -1685,7 +1685,7 @@
       "Name": "Martina",
       "Lastname": "Farraway",
       "Photo": "../photos/photo4.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 1,
       "Amusing": 4
     },
@@ -1757,7 +1757,7 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 1,
       "Amusing": 1
     },
@@ -1769,13 +1769,13 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 4,
       "Amusing": 1
     },
     {
       "Name": "Maurits",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 3,
       "Amusing": 2
     },
@@ -1847,7 +1847,7 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -1931,7 +1931,7 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -1991,7 +1991,7 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 2,
       "Amusing": 3
     },
@@ -2003,7 +2003,7 @@
     },
     {
       "Name": "Maurits",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 4,
       "Amusing": 2
     },
@@ -2023,7 +2023,7 @@
       "Name": "Maurits",
       "Lastname": "Crocetto",
       "Photo": "../photos/photo2.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 3,
       "Amusing": 3
     },
@@ -2095,7 +2095,7 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -2107,13 +2107,13 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 2,
       "Amusing": 4
     },
     {
       "Name": "Rahima",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 3,
       "Amusing": 3
     },
@@ -2185,7 +2185,7 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 3,
       "Amusing": 1
     },
@@ -2269,7 +2269,7 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -2329,7 +2329,7 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 1,
       "Amusing": 2
     },
@@ -2341,7 +2341,7 @@
     },
     {
       "Name": "Rahima",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 2,
       "Amusing": 3
     },
@@ -2361,7 +2361,7 @@
       "Name": "Rahima",
       "Lastname": "Watford",
       "Photo": "../photos/photo4.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -2433,7 +2433,7 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -2445,13 +2445,13 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 1,
       "Amusing": 3
     },
     {
       "Name": "Sandra",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 3,
       "Amusing": 3
     },
@@ -2523,7 +2523,7 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -2607,7 +2607,7 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 1,
       "Amusing": 2
     },
@@ -2667,7 +2667,7 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -2679,7 +2679,7 @@
     },
     {
       "Name": "Sandra",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -2699,7 +2699,7 @@
       "Name": "Sandra",
       "Lastname": "Gladman",
       "Photo": "../photos/photo1.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -2771,7 +2771,7 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -2783,13 +2783,13 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 2,
       "Amusing": 3
     },
     {
       "Name": "Wietske",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 3,
       "Amusing": 3
     },
@@ -2861,7 +2861,7 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 2,
       "Amusing": 2
     },
@@ -2945,7 +2945,7 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 2,
       "Amusing": 4
     },
@@ -3005,7 +3005,7 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 4,
       "Amusing": 2
     },
@@ -3017,7 +3017,7 @@
     },
     {
       "Name": "Wietske",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 4,
       "Amusing": 2
     },
@@ -3037,7 +3037,7 @@
       "Name": "Wietske",
       "Lastname": "De La Coste",
       "Photo": "../photos/photo1.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 1,
       "Amusing": 2
     },
@@ -3109,7 +3109,7 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W1D3 - Project - Guess-the-number",
+      "Exercise": "W1D3-Guess-the-number",
       "Difficulty": 3,
       "Amusing": 4
     },
@@ -3121,13 +3121,13 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W1D4 - Project - Kleurentoggle",
+      "Exercise": "W1D4-Kleurentoggle",
       "Difficulty": 3,
       "Amusing": 2
     },
     {
       "Name": "Storm",
-      "Exercise": "W1D5 - Project - Galgje",
+      "Exercise": "W1D5-Galgje",
       "Difficulty": 4,
       "Amusing": 4
     },
@@ -3199,7 +3199,7 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W2D5 - Project - Filmzoeker",
+      "Exercise": "W2D5-Filmzoeker",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -3283,7 +3283,7 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W3D5 - Project - Todo-List",
+      "Exercise": "W3D5-Todo-List",
       "Difficulty": 3,
       "Amusing": 2
     },
@@ -3343,7 +3343,7 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W4D3 - Project - Next-Level CSS",
+      "Exercise": "W4D3-Next-Level CSS",
       "Difficulty": 4,
       "Amusing": 1
     },
@@ -3355,7 +3355,7 @@
     },
     {
       "Name": "Storm",
-      "Exercise": "W5D5 - Project - Lil_Playlist",
+      "Exercise": "W5D5-Lil_Playlist",
       "Difficulty": 1,
       "Amusing": 2
     },
@@ -3375,7 +3375,7 @@
       "Name": "Storm",
       "Lastname": "Shepstone",
       "Photo": "../photos/photo3.jpg",
-      "Exercise": "W6D2 - Project - Eindopdracht",
+      "Exercise": "W6D2-Eindopdracht",
       "Difficulty": 3,
       "Amusing": 3
     }

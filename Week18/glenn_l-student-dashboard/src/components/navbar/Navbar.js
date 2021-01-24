@@ -17,13 +17,13 @@ const Navbar = (props) => {
 
     return (
         <nav className="navbar">
-            <div className="navbar__wrapper">
+            <div className="navbar__namelist">
                 <h3 className="navbar__title">Students: </h3>
                 <ul className="navbar__list">
                     <NavbarContainer {...props}/>
                 </ul>
             </div>
-            <div className="navbar__sortdata">
+            <div className="navbar__sortby">
                 <h3 className="navbar__title">Sort by:</h3>
                 <NavbarSortContainer
                     sortOrder={hasSortOrder}
